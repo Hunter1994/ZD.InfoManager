@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZD.InfoManager", "ZD.InfoManager\ZD.InfoManager.csproj", "{59B23981-CA02-4EBF-B71C-FDB9D0B70F8E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tast", "Tast", "{6D4AB3A2-C052-4DDF-91B6-09FAB4A8C06B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZD.InfoManager.Core", "ZD.InfoManager.Core\ZD.InfoManager.Core.csproj", "{B56E8806-6DD1-4E6E-BBB7-4ADBF7BC6E4F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZD.InfoManager.EntityFramework", "ZD.InfoManager.EntityFramework\ZD.InfoManager.EntityFramework.csproj", "{51FDF001-089A-4BAF-ABAC-D60C8F8ED99C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZD.InfoManager.WebApi", "ZD.InfoManager.WebApi\ZD.InfoManager.WebApi.csproj", "{1C2F8C64-7FBE-437C-B746-CF1B788B6A74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZD.InfoManager.Application", "ZD.InfoManager.Application\ZD.InfoManager.Application.csproj", "{DD9EB27E-066B-4B31-B412-4A6699B79D58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZD.InfoManager.Test", "ZD.InfoManager.Test\ZD.InfoManager.Test.csproj", "{FE673D38-2EFA-40F4-890C-EEB4EF61DC03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59B23981-CA02-4EBF-B71C-FDB9D0B70F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B23981-CA02-4EBF-B71C-FDB9D0B70F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B23981-CA02-4EBF-B71C-FDB9D0B70F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B23981-CA02-4EBF-B71C-FDB9D0B70F8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B56E8806-6DD1-4E6E-BBB7-4ADBF7BC6E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B56E8806-6DD1-4E6E-BBB7-4ADBF7BC6E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B56E8806-6DD1-4E6E-BBB7-4ADBF7BC6E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B56E8806-6DD1-4E6E-BBB7-4ADBF7BC6E4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51FDF001-089A-4BAF-ABAC-D60C8F8ED99C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51FDF001-089A-4BAF-ABAC-D60C8F8ED99C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51FDF001-089A-4BAF-ABAC-D60C8F8ED99C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51FDF001-089A-4BAF-ABAC-D60C8F8ED99C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C2F8C64-7FBE-437C-B746-CF1B788B6A74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C2F8C64-7FBE-437C-B746-CF1B788B6A74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C2F8C64-7FBE-437C-B746-CF1B788B6A74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C2F8C64-7FBE-437C-B746-CF1B788B6A74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD9EB27E-066B-4B31-B412-4A6699B79D58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD9EB27E-066B-4B31-B412-4A6699B79D58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD9EB27E-066B-4B31-B412-4A6699B79D58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD9EB27E-066B-4B31-B412-4A6699B79D58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE673D38-2EFA-40F4-890C-EEB4EF61DC03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE673D38-2EFA-40F4-890C-EEB4EF61DC03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE673D38-2EFA-40F4-890C-EEB4EF61DC03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE673D38-2EFA-40F4-890C-EEB4EF61DC03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE673D38-2EFA-40F4-890C-EEB4EF61DC03} = {6D4AB3A2-C052-4DDF-91B6-09FAB4A8C06B}
+	EndGlobalSection
+EndGlobal
