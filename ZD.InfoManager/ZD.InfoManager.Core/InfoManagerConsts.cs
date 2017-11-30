@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ZD.InfoManager.Core
 {
-    public class InfoMangerConsts
+    public class InfoManagerConsts
     {
         public const string LocalizationSourceName = "InfoManger";
 

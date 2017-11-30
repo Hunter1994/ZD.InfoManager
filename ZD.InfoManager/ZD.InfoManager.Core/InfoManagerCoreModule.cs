@@ -31,12 +31,12 @@ namespace ZD.InfoManager.Core
             Configuration.Modules.Zero().EntityTypes.User = typeof(User);
 
             //设置多租户
-            Configuration.MultiTenancy.IsEnabled = InfoMangerConsts.MultiTenancyEnabled;
+            Configuration.MultiTenancy.IsEnabled = InfoManagerConsts.MultiTenancyEnabled;
 
             //添加本地化资源
             Configuration.Localization.Sources.Add(
                 new DictionaryBasedLocalizationSource(
-                    InfoMangerConsts.LocalizationSourceName,
+                    InfoManagerConsts.LocalizationSourceName,
                     new XmlEmbeddedFileLocalizationDictionaryProvider(
                         Assembly.GetExecutingAssembly(),
                         "ZD.InfoManager.Core.Localization.Source"

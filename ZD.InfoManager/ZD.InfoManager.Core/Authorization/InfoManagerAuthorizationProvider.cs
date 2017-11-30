@@ -15,7 +15,7 @@ namespace ZD.InfoManager.Core.Authorization
 
         private static ILocalizableString L(string name)
         {
-            return new LocalizableString(name, InfoMangerConsts.LocalizationSourceName);
+            return new LocalizableString(name, InfoManagerConsts.LocalizationSourceName);
         }
     }
 }

@@ -130,7 +130,7 @@
     <Compile Include="Editions\EditionManager.cs" />
     <Compile Include="Features\FeatureValueStore.cs" />
     <Compile Include="InfoManagerCoreModule.cs" />
-    <Compile Include="InfoMangerConsts.cs" />
+    <Compile Include="InfoManagerConsts.cs" />
     <Compile Include="MultiTenancy\Tenant.cs" />
     <Compile Include="MultiTenancy\TenantManager.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

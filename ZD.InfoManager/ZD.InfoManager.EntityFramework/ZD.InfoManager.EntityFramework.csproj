@@ -139,6 +139,10 @@
     <Compile Include="EntityFramework\InfoManagerDbContext.cs" />
     <Compile Include="EntityFramework\Repositories\InfoManagerRepositoryBase.cs" />
     <Compile Include="InfoManagerDataModule.cs" />
+    <Compile Include="Migrations\201711300155015_init.cs" />
+    <Compile Include="Migrations\201711300155015_init.Designer.cs">
+      <DependentUpon>201711300155015_init.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsCreator.cs" />
     <Compile Include="Migrations\SeedData\DefaultLanguagesCreator.cs" />
@@ -158,6 +162,11 @@
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201711300155015_init.resx">
+      <DependentUpon>201711300155015_init.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />
