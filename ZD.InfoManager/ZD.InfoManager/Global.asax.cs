@@ -1,21 +1,20 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using System.Web.Optimization;
-using System.Web.Routing;
+﻿using Abp;
+using Abp.Web;
+using System;
+using Abp.Castle.Logging.Log4Net;
+using ZD.InfoManager.App_Start;
+using Castle.Facilities.Logging;
 
 namespace ZD.InfoManager
 {
-    public class MvcApplication : System.Web.HttpApplication
+    public class MvcApplication : AbpWebApplication<InfoManagerWebModule>
     {
-        protected void Application_Start()
+        protected override void Application_Start(object sender, EventArgs e)
         {
-            AreaRegistration.RegisterAllAreas();
-            FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
-            RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BundleConfig.RegisterBundles(BundleTable.Bundles);
+            AbpBootstrapper.IocManager.IocContainer.AddFacility<LoggingFacility>(
+                f => f.UseAbpLog4Net().WithConfig(Server.MapPath("log4net.config"))
+            );
+            base.Application_Start(sender, e);
         }
     }
 }

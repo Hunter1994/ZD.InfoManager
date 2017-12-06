@@ -17,7 +17,7 @@ using ZD.InfoManager.Core.Editions;
 using ZD.InfoManager.Core.Authorization.Users;
 using ZD.InfoManager.Core.Authorization.Roles;
 
-namespace MyPassword.MultiTenancy
+namespace ZD.InfoManager.Application.MultiTenancy
 {
     [AbpAuthorize(PermissionNames.Pages_Tenants)]
     public class TenantAppService : AsyncCrudAppService<Tenant, TenantDto, int, PagedResultRequestDto, CreateTenantDto, TenantDto>, ITenantAppService
