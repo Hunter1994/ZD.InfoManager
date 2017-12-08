@@ -83,8 +83,8 @@ namespace ZD.InfoManager.WebApi.Controllers
                 case AbpLoginResultType.UserIsNotActive:
                     return new UserFriendlyException(L("LoginFailed"), L("UserIsNotActiveAndCanNotLogin", usernameOrEmailAddress));
                 case AbpLoginResultType.UserEmailIsNotConfirmed:
-                    return new UserFriendlyException(L("LoginFailed"), "Your email address is not confirmed. You can not login"); //TODO: localize message
-                default: //Can not fall to default actually. But other result types can be added in the future and we may forget to handle it
+                    return new UserFriendlyException(L("LoginFailed"), "Your email address is not confirmed. You can not login"); //TODO: 本地化消息
+                default: //实际上不能落到默认值。 但是其他结果类型可以在将来添加，我们可能会忘记处理它
                     Logger.Warn("Unhandled login fail reason: " + result);
                     return new UserFriendlyException(L("LoginFailed"));
             }

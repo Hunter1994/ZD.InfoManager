@@ -20,6 +20,7 @@ namespace ZD.InfoManager
                 Include("~/lib/media/css/default.css").
                 Include("~/lib/media/css/uniform.default.css")
                 );
+
             bundles.Add(new ScriptBundle("~/Bundles/media/js").
                Include("~/lib/media/js/jquery-1.10.1.min.js").
                Include("~/lib/media/js/jquery-migrate-1.2.1.min.js").
@@ -32,6 +33,28 @@ namespace ZD.InfoManager
                Include("~/lib/media/js/jquery.validate.min.js").
                Include("~/lib/media/js/app.js")
                );
+
+
+            bundles.Add(new StyleBundle("~/Bundles/abp/css").
+               Include("~/lib/sweetalert/dist/sweetalert.css").
+               Include("~/lib/toastr/toastr.css")
+               );
+            bundles.Add(new ScriptBundle("~/Bundles/abp/js").
+              Include("~/lib/json2/json2.js").
+              Include("~/lib/moment/min/moment-with-locales.js").
+              Include("~/lib/jquery-validation/dist/jquery.validate.js").
+              Include("~/lib/blockUI/jquery.blockUI.js").
+              Include("~/lib/spin.js/spin.js").
+              Include("~/lib/spin.js/jquery.spin.js").
+              Include("~/lib/sweetalert/dist/sweetalert-dev.js").
+              Include("~/lib/toastr/toastr.js").
+              Include("~/Abp/Framework/scripts/abp.js").
+              Include("~/Abp/Framework/scripts/libs/abp.jquery.js").
+              Include("~/Abp/Framework/scripts/libs/abp.toastr.js").
+              Include("~/Abp/Framework/scripts/libs/abp.blockUI.js").
+              Include("~/Abp/Framework/scripts/libs/abp.spin.js").
+              Include("~/Abp/Framework/scripts/libs/abp.sweet-alert.js")
+              );
 
 
 
