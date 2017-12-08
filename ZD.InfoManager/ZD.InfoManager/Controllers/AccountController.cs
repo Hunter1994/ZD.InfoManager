@@ -61,7 +61,9 @@ namespace ZD.InfoManager.Controllers
             _tenantCache = tenantCache;
             _authenticationManager = authenticationManager;
         }
-        // GET: Account
+
+
+        #region Login / Logout
         public ActionResult Login(string returnUrl)
         {
             ViewBag.ReturnUrl = returnUrl;
@@ -135,6 +137,8 @@ namespace ZD.InfoManager.Controllers
             _authenticationManager.SignOut();
             return RedirectToAction("Login");
         }
+        #endregion
+
 
 
     }
