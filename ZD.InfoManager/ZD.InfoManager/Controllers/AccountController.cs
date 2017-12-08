@@ -139,7 +139,13 @@ namespace ZD.InfoManager.Controllers
         }
         #endregion
 
+        #region Register
+        public ActionResult Register()
+        {
+            return View();
+        }
 
+        #endregion
 
     }
 }

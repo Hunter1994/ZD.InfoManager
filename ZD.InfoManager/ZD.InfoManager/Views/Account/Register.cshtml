@@ -1,0 +1,135 @@
+﻿@using Abp.Web.Mvc.Extensions;
+@using Abp.Authorization.Users;
+@{
+    Layout = "~/Views/Account/_Layout.cshtml";
+    ViewBag.Title = "注册";
+}
+@section Styles{
+    @Html.IncludeStyle("~/lib/media/css/login.css")
+}
+@section Scripts{
+    @Html.IncludeScript("~/Views/Account/Register.js")
+}
+
+<div class="content">
+
+
+    <!-- BEGIN REGISTRATION FORM -->
+
+    <form class="form-vertical" id="Registion" action="index.html">
+
+        <h3 class="">注册</h3>
+
+        <p>在下面输入您的帐户详情：</p>
+
+        <div class="control-group">
+
+            <label class="control-label visible-ie8 visible-ie9">Username</label>
+
+            <div class="controls">
+
+                <div class="input-icon left">
+
+                    <i class="icon-user"></i>
+
+                    <input class="m-wrap placeholder-no-fix" type="text" maxlength="@AbpUserBase.MaxUserNameLength" required placeholder="用户名" name="UserName" />
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="control-group">
+
+            <label class="control-label visible-ie8 visible-ie9">Password</label>
+
+            <div class="controls">
+
+                <div class="input-icon left">
+
+                    <i class="icon-lock"></i>
+
+                    <input class="m-wrap placeholder-no-fix" type="password" required maxlength="@AbpUserBase.MaxPasswordLength" id="register_password" placeholder="密码" name="Password" />
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="control-group">
+
+            <label class="control-label visible-ie8 visible-ie9">重新输入密码</label>
+
+            <div class="controls">
+
+                <div class="input-icon left">
+
+                    <i class="icon-ok"></i>
+
+                    <input class="m-wrap placeholder-no-fix" type="password" required maxlength="@AbpUserBase.MaxPasswordLength" placeholder="重新输入密码" name="RPassword" />
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="control-group">
+
+            <!--ie8, ie9 does not support html5 placeholder, so we just show field title for that-->
+
+            <label class="control-label visible-ie8 visible-ie9">Email</label>
+
+            <div class="controls">
+
+                <div class="input-icon left">
+
+                    <i class="icon-envelope"></i>
+
+                    <input class="m-wrap placeholder-no-fix" type="email" required maxlength="@AbpUserBase.MaxEmailAddressLength"  placeholder="邮箱" name="EmailAddress" />
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="control-group">
+
+            <div class="controls">
+
+                <label class="checkbox">
+
+                    <input type="checkbox" name="tnc" /> 我同意 <a href="#">服务条款</a> 和 <a href="#">隐私政策</a>
+
+                </label>
+
+                <div id="register_tnc_error"></div>
+
+            </div>
+
+        </div>
+
+        <div class="form-actions">
+
+            <button id="register-back-btn" type="button" class="btn">
+
+                <i class="m-icon-swapleft"></i> 返回
+
+            </button>
+
+            <button type="submit" id="register-submit-btn" class="btn green pull-right">
+
+                注册 <i class="m-icon-swapright m-icon-white"></i>
+
+            </button>
+
+        </div>
+
+    </form>
+
+    <!-- END REGISTRATION FORM -->
+
+</div>

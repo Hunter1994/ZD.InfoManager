@@ -39,7 +39,7 @@
 
                     <i class="icon-user"></i>
 
-                    <input class="m-wrap placeholder-no-fix" type="text" placeholder="Username" name="UsernameOrEmailAddress" />
+                    <input class="m-wrap placeholder-no-fix" type="text" placeholder="用户名或邮箱" required name="UsernameOrEmailAddress" />
 
                 </div>
 
@@ -57,7 +57,7 @@
 
                     <i class="icon-lock"></i>
 
-                    <input class="m-wrap placeholder-no-fix" type="password" placeholder="Password" name="Password" />
+                    <input class="m-wrap placeholder-no-fix" type="password" placeholder="密码" required name="Password" />
 
                 </div>
 
@@ -69,7 +69,7 @@
 
             <label class="checkbox">
 
-                <input type="checkbox" name="RememberMe" value="1" /> 记住我
+                <input type="checkbox" name="RememberMe" value="true"/> 记住我
 
             </label>
 
@@ -101,7 +101,7 @@
 
                 还没有帐号 ?&nbsp;
 
-                <a href="javascript:;" id="register-btn" class="">创建一个帐户</a>
+                <a href="@Url.Action("Register")" id="register-btn" class="">创建一个帐户</a>
 
             </p>
 

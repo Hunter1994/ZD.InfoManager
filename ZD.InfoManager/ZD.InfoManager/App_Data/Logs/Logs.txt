@@ -1331,3 +1331,645 @@ DEBUG 2017-12-08 17:17:43,253 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2017-12-08 17:17:43,253 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
 DEBUG 2017-12-08 17:17:43,254 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
 DEBUG 2017-12-08 17:17:43,255 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-12-08 21:32:32,766 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-08 21:32:32,796 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-08 21:32:32,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,810 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,811 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,812 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,813 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,814 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:32,818 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-08 21:32:33,732 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:32:40,327 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-08 21:32:40,359 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-08 21:32:40,387 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-08 21:32:40,387 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManger
+DEBUG 2017-12-08 21:32:40,391 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-08 21:32:41,382 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-08 21:32:41,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-12-08 21:32:41,560 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-08 21:32:41,569 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-08 21:32:41,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-08 21:32:41,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-08 21:32:41,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-08 21:32:41,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-08 21:32:41,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-08 21:32:41,570 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-08 21:32:41,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-08 21:32:41,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-08 21:32:41,571 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-08 21:32:50,612 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-08 21:32:50,614 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-08 21:32:50,617 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-08 21:32:50,620 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-08 21:32:50,622 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-08 21:32:50,625 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-08 21:38:06,131 [23   ] nfoManager.Controllers.AccountController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError()
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   在 Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-12-08 21:38:06,138 [23   ] nfoManager.Controllers.AccountController - There are 2 validation errors:
+WARN  2017-12-08 21:38:06,138 [23   ] nfoManager.Controllers.AccountController - UsernameOrEmailAddress 字段是必需的。 (UsernameOrEmailAddress)
+WARN  2017-12-08 21:38:06,138 [23   ] nfoManager.Controllers.AccountController - Password 字段是必需的。 (Password)
+DEBUG 2017-12-08 21:55:47,544 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-08 21:55:47,566 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-08 21:55:47,578 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,584 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,585 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:47,591 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-08 21:55:48,238 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 21:55:50,387 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-08 21:55:50,415 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-08 21:55:50,443 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-08 21:55:50,443 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManger
+DEBUG 2017-12-08 21:55:50,446 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-08 21:55:50,906 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-08 21:55:50,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-12-08 21:55:50,989 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-08 21:55:50,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-08 21:55:50,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-08 21:55:50,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-08 21:55:50,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-08 21:55:50,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-08 21:55:50,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-08 21:55:50,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-08 21:55:50,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-08 21:55:50,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-08 21:55:50,993 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-08 21:55:53,763 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-08 21:55:53,764 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-08 21:55:53,765 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-08 21:55:53,767 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-08 21:55:53,768 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-08 21:55:53,769 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2017-12-08 21:58:06,598 [19   ] nfoManager.Controllers.AccountController - F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Views\Account\Register.cshtml(7): error CS1061: 'HtmlHelper<dynamic>' does not contain a definition for 'IncludeStyle' and no extension method 'IncludeStyle' accepting a first argument of type 'HtmlHelper<dynamic>' could be found (are you missing a using directive or an assembly reference?)
+System.Web.HttpCompileException (0x80004005): F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Views\Account\Register.cshtml(7): error CS1061: 'HtmlHelper<dynamic>' does not contain a definition for 'IncludeStyle' and no extension method 'IncludeStyle' accepting a first argument of type 'HtmlHelper<dynamic>' could be found (are you missing a using directive or an assembly reference?)
+   在 System.Web.Compilation.AssemblyBuilder.Compile()
+   在 System.Web.Compilation.BuildProvidersCompiler.PerformBuild()
+   在 System.Web.Compilation.BuildManager.CompileWebFile(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultInternal(VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVPathBuildResultWithNoAssert(HttpContext context, VirtualPath virtualPath, Boolean noBuild, Boolean allowCrossApp, Boolean allowBuildInPrecompile, Boolean throwIfNotFound, Boolean ensureIsUpToDate)
+   在 System.Web.Compilation.BuildManager.GetVirtualPathObjectFactory(VirtualPath virtualPath, HttpContext context, Boolean allowCrossApp, Boolean throwIfNotFound)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(VirtualPath virtualPath)
+   在 System.Web.Compilation.BuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerWrapper.System.Web.Mvc.IBuildManager.GetCompiledType(String virtualPath)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+ERROR 2017-12-08 21:58:41,801 [21   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Views/Account/Register.js! System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioningForEmbeddedFile(String path)
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+DEBUG 2017-12-08 22:05:19,177 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-08 22:05:19,195 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-08 22:05:19,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:19,223 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-08 22:05:19,821 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:05:21,507 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-08 22:05:21,519 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-08 22:05:21,537 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-08 22:05:21,537 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManger
+DEBUG 2017-12-08 22:05:21,538 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-08 22:05:21,934 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-08 22:05:22,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-12-08 22:05:22,012 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-08 22:05:22,016 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-08 22:05:22,016 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-08 22:05:22,016 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-08 22:05:22,017 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-08 22:05:22,017 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-08 22:05:22,017 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-08 22:05:22,017 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-08 22:05:22,017 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-08 22:05:22,017 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-08 22:05:22,017 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-08 22:05:24,797 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-08 22:05:24,798 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-08 22:05:24,799 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-08 22:05:24,801 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-08 22:05:24,803 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-08 22:05:24,804 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-08 22:40:54,522 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:40:54,523 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:40:54,711 [18   ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-12-08 22:41:06,750 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:41:06,750 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:41:06,853 [32   ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-12-08 22:41:09,047 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:41:09,047 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:41:09,157 [32   ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-12-08 22:42:48,036 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-08 22:42:48,061 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-08 22:42:48,075 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,077 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,078 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,079 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,080 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,082 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,086 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,086 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:48,092 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-08 22:42:48,917 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:42:51,074 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-08 22:42:51,090 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-08 22:42:51,110 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-08 22:42:51,110 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManger
+DEBUG 2017-12-08 22:42:51,112 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-08 22:42:51,553 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-08 22:42:51,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-12-08 22:42:51,650 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-08 22:42:51,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-08 22:42:51,654 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-08 22:42:51,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-08 22:42:51,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-08 22:42:51,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-08 22:42:51,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-08 22:42:51,655 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-08 22:42:51,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-08 22:42:51,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-08 22:42:51,656 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-08 22:42:55,001 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-08 22:42:55,003 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-08 22:42:55,004 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-08 22:42:55,006 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-08 22:42:55,007 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-08 22:42:55,008 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-08 22:43:19,602 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:43:19,602 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:43:19,700 [8    ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 99
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-12-08 22:44:14,126 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:44:14,126 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:44:14,304 [8    ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 99
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-12-08 22:45:35,976 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-08 22:45:35,994 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-08 22:45:36,004 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,010 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,010 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,010 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,010 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,011 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,011 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:36,015 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-08 22:45:36,691 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:45:38,349 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-08 22:45:38,366 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-08 22:45:38,392 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-08 22:45:38,392 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManger
+DEBUG 2017-12-08 22:45:38,394 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-08 22:45:38,775 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-08 22:45:38,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-12-08 22:45:38,854 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-08 22:45:38,857 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-08 22:45:38,857 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-08 22:45:38,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-08 22:45:38,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-08 22:45:38,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-08 22:45:38,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-08 22:45:38,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-08 22:45:38,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-08 22:45:38,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-08 22:45:38,858 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-08 22:45:41,676 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-08 22:45:41,678 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-08 22:45:41,679 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-08 22:45:41,680 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-08 22:45:41,681 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-08 22:45:41,682 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-08 22:45:54,698 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:45:54,699 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:45:54,816 [11   ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+DEBUG 2017-12-08 22:49:16,533 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-08 22:49:16,970 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-08 22:49:16,986 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,989 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,990 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,990 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,991 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,991 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,991 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,992 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,993 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,994 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:16,994 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:17,000 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-08 22:49:18,084 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-08 22:49:18,810 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-08 22:49:18,829 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-08 22:49:18,847 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-08 22:49:18,847 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManger
+DEBUG 2017-12-08 22:49:18,850 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-08 22:49:19,295 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-08 22:49:19,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-12-08 22:49:19,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-08 22:49:19,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-08 22:49:19,449 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-08 22:49:19,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-08 22:49:19,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-08 22:49:19,451 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-08 22:49:19,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-08 22:49:19,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-08 22:49:19,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-08 22:49:19,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-08 22:49:19,452 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-08 22:49:22,314 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-08 22:49:22,315 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-08 22:49:22,317 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-08 22:49:22,318 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-08 22:49:22,320 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-08 22:49:22,321 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-08 22:49:49,264 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:49:49,265 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:49:49,353 [8    ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-12-08 22:50:37,267 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:50:37,267 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:50:37,376 [8    ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-12-08 22:50:57,725 [8    ] nfoManager.Controllers.AccountController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.ThrowValidationError()
+   在 Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   在 Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-12-08 22:50:57,727 [8    ] nfoManager.Controllers.AccountController - There are 1 validation errors:
+WARN  2017-12-08 22:50:57,727 [8    ] nfoManager.Controllers.AccountController - 值“1”对于 RememberMe 无效。 (RememberMe)
+WARN  2017-12-08 22:51:14,829 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:51:14,829 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:51:14,932 [9    ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-12-08 22:51:35,509 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:51:35,509 [26   ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:51:35,691 [8    ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-12-08 22:52:42,544 [37   ] naries.DictionaryBasedLocalizationSource - Can not find 'LoginFailed' in localization source 'InfoManger'!
+WARN  2017-12-08 22:52:42,544 [37   ] naries.DictionaryBasedLocalizationSource - Can not find 'InvalidUserNameOrPassword' in localization source 'InfoManger'!
+WARN  2017-12-08 22:52:42,642 [8    ] nfoManager.Controllers.AccountController - [Login failed]
+Abp.UI.UserFriendlyException: [Login failed]
+   在 ZD.InfoManager.Controllers.AccountController.<GetLoginResultAsync>d__13.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 98
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   在 ZD.InfoManager.Controllers.AccountController.<Login>d__12.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Controllers\AccountController.cs:行号 77
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Mvc.Async.TaskAsyncActionDescriptor.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass37.<BeginInvokeAsynchronousActionMethod>b__36(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethod(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3d()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.<>c__DisplayClass46.<InvokeActionMethodFilterAsynchronouslyRecursive>b__3f()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__32(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeActionMethodWithFilters(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
