@@ -2615,3 +2615,183 @@ DEBUG 2017-12-10 15:58:25,099 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2017-12-10 15:58:25,101 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
 DEBUG 2017-12-10 15:58:25,104 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
 DEBUG 2017-12-10 15:58:25,105 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-12-10 17:22:17,860 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-10 17:22:17,880 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-10 17:22:17,887 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,893 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,894 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:17,898 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-10 17:22:18,647 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:22:20,669 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-10 17:22:20,686 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-10 17:22:20,702 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-10 17:22:20,702 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManger
+DEBUG 2017-12-10 17:22:20,704 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-10 17:22:21,091 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-10 17:22:21,170 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-12-10 17:22:21,170 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-10 17:22:21,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-10 17:22:21,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-10 17:22:21,174 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-10 17:22:21,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-10 17:22:21,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-10 17:22:21,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-10 17:22:21,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-10 17:22:21,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-10 17:22:21,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-10 17:22:21,175 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-10 17:22:23,881 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-10 17:22:23,884 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-10 17:22:23,886 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-10 17:22:23,891 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-10 17:22:23,896 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-10 17:22:23,899 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-12-10 17:23:12,237 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-10 17:23:12,274 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-10 17:23:12,287 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,290 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,291 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,292 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,293 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,294 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,295 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:12,301 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-10 17:23:13,049 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:23:14,928 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-10 17:23:14,941 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-10 17:23:14,958 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-10 17:23:14,958 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManger
+DEBUG 2017-12-10 17:23:14,960 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-10 17:23:15,354 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-10 17:23:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-12-10 17:23:15,432 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-10 17:23:15,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-10 17:23:15,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-10 17:23:15,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-10 17:23:15,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-10 17:23:15,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-10 17:23:15,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-10 17:23:15,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-10 17:23:15,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-10 17:23:15,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-10 17:23:15,436 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-10 17:23:18,422 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-10 17:23:18,423 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-10 17:23:18,425 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-10 17:23:18,426 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-10 17:23:18,428 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-10 17:23:18,429 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-12-10 17:26:17,162 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-10 17:26:17,192 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-10 17:26:17,211 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,215 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,216 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,217 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,218 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,219 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,220 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,223 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,224 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:17,231 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-10 17:26:18,002 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:26:19,947 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-10 17:26:19,963 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-10 17:26:19,988 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-10 17:26:19,988 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManger
+DEBUG 2017-12-10 17:26:19,990 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-10 17:26:20,361 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-10 17:26:20,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-12-10 17:26:20,431 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-10 17:26:20,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-10 17:26:20,434 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-10 17:26:20,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-10 17:26:20,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-10 17:26:20,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-10 17:26:20,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-10 17:26:20,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-10 17:26:20,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-10 17:26:20,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-10 17:26:20,435 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-10 17:26:23,866 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-10 17:26:23,868 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-10 17:26:23,870 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-10 17:26:23,873 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-10 17:26:23,874 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-10 17:26:23,879 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+DEBUG 2017-12-10 17:28:45,076 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-10 17:28:45,107 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-10 17:28:45,120 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,123 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,124 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,125 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,126 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:45,130 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-10 17:28:45,843 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-10 17:28:47,655 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-10 17:28:47,672 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-10 17:28:47,687 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-10 17:28:47,687 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManger
+DEBUG 2017-12-10 17:28:47,689 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-10 17:28:48,138 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-10 17:28:48,216 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-12-10 17:28:48,216 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-10 17:28:48,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-10 17:28:48,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-10 17:28:48,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-10 17:28:48,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-10 17:28:48,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-10 17:28:48,220 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-10 17:28:48,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-10 17:28:48,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-10 17:28:48,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-10 17:28:48,221 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-10 17:28:50,898 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-10 17:28:50,900 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-10 17:28:50,901 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-10 17:28:50,902 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-10 17:28:50,903 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-10 17:28:50,905 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
