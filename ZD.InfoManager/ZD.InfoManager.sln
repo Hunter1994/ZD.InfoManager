@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.23107.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZD.InfoManager", "ZD.InfoManager\ZD.InfoManager.csproj", "{59B23981-CA02-4EBF-B71C-FDB9D0B70F8E}"
 EndProject
@@ -53,5 +53,8 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{FE673D38-2EFA-40F4-890C-EEB4EF61DC03} = {6D4AB3A2-C052-4DDF-91B6-09FAB4A8C06B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E6DF6EDD-83D2-450E-81DB-40E8EE84CBBC}
 	EndGlobalSection
 EndGlobal

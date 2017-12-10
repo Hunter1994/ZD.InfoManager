@@ -31,6 +31,9 @@ namespace ZD.InfoManager.Models.Account
         [StringLength(AbpUserBase.MaxPasswordLength)]
         public string Password { get; set; }
 
+            [StringLength(AbpUserBase.MaxPasswordLength)]
+            public string RPassword { get; set; }
+
         public bool IsExternalLogin { get; set; }
 
         public string ExternalLoginAuthSchema { get; set; }
@@ -44,6 +47,13 @@ namespace ZD.InfoManager.Models.Account
                 if (!UserName.Equals(EmailAddress) && emailRegex.IsMatch(UserName))
                 {
                     yield return new ValidationResult("用户名不能是电子邮件地址，除非它与您的电子邮件地址相同！");
+                }
+            }
+            if (Password != null && RPassword != null)
+            {
+                if (Password.Equals(RPassword, StringComparison.CurrentCulture))
+                {
+                    yield return new ValidationResult("两次输入密码不一致！");
                 }
             }
         }

@@ -3,14 +3,18 @@ using Abp.Authorization;
 using Abp.Authorization.Users;
 using Abp.Configuration.Startup;
 using Abp.Domain.Uow;
+using Abp.Extensions;
 using Abp.Localization;
 using Abp.MultiTenancy;
+using Abp.Runtime.Session;
 using Abp.UI;
 using Abp.Web.Models;
 using Microsoft.AspNet.Identity;
+using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -74,6 +78,7 @@ namespace ZD.InfoManager.Controllers
         [DisableAuditing]
         public async Task<JsonResult> Login(LoginViewModel model, string returnUrl, string returnUrlHash = "")
         {
+            CheckModelState();
             var loginResult = await GetLoginResultAsync(model.UsernameOrEmailAddress, model.Password, "Default");
             await SignInAsync(loginResult.User, loginResult.Identity, model.RememberMe);
             if (string.IsNullOrWhiteSpace(returnUrl))
@@ -140,12 +145,131 @@ namespace ZD.InfoManager.Controllers
         #endregion
 
         #region Register
+        [NonAction]
         public ActionResult Register()
         {
-            return View();
+            return RegisterView(new RegisterViewModel());
+        }
+        [NonAction]
+        public ActionResult RegisterView(RegisterViewModel model)
+        {
+            return View("Register", model);
+        }
+        [NonAction]
+        [HttpPost]
+        public async Task<ActionResult> Register(RegisterViewModel model)
+        {
+            try
+            {
+
+                CheckModelState();
+
+                //创建用户
+                var user = new User()
+                {
+                    Name = model.Name,
+                    Surname = model.Surname,
+                    EmailAddress = model.EmailAddress,
+                    IsActive = true
+                };
+
+                //如果可能，获取外部登录信息
+                ExternalLoginInfo externalLoginInfo = null;
+                if (model.IsExternalLogin)
+                {
+                    externalLoginInfo = await _authenticationManager.GetExternalLoginInfoAsync();
+                    if (externalLoginInfo == null)
+                        throw new ApplicationException("不能外部登录！");
+
+                    user.Logins = new List<UserLogin>()
+                {
+                    new UserLogin (){
+                        LoginProvider=externalLoginInfo.Login.LoginProvider,
+                        ProviderKey=externalLoginInfo.Login.ProviderKey
+                    }
+                };
+
+                    if (model.UserName.IsNullOrEmpty())
+                    {
+                        model.UserName = model.EmailAddress;
+                    }
+
+                    model.Password = model.Password;
+                    if (string.Equals(externalLoginInfo.Email, model.EmailAddress, StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        user.IsEmailConfirmed = true;
+                    }
+                }
+                else
+                {
+                    if (model.UserName.IsNullOrEmpty() || model.Password.IsNullOrEmpty())
+                    {
+                        throw new UserFriendlyException("输入无效。 请检查并修复错误。");
+                    }
+                }
+                user.UserName = model.UserName;
+                user.Password = new PasswordHasher().HashPassword(model.Password);
+
+                //切换到租户
+                _unitOfWorkManager.Current.EnableFilter(AbpDataFilters.MayHaveTenant);
+                _unitOfWorkManager.Current.SetTenantId(AbpSession.GetTenantId());
+
+                //添加默认角色(需要把角色设置为默认)
+                user.Roles = new List<UserRole>();
+                foreach (var defaultRole in await _roleManager.Roles.Where(r => r.IsDefault).ToListAsync())
+                {
+                    user.Roles.Add(new UserRole() { RoleId = defaultRole.Id });
+                }
+                //保存用户
+                CheckErrors(await _userManager.CreateAsync(user));
+                await _unitOfWorkManager.Current.SaveChangesAsync();
+
+                //如果用户被激活，则直接登录
+                if (user.IsActive)
+                {
+                    AbpLoginResult<Tenant, User> loginResult;
+                    if (externalLoginInfo != null)
+                    {
+                        loginResult = await _logInManager.LoginAsync(externalLoginInfo.Login, GetTenancyNameOrNull());
+                    }
+                    else
+                    {
+                        loginResult = await GetLoginResultAsync(user.UserName, model.Password, GetTenancyNameOrNull());
+                    }
+
+                    if (loginResult.Result == AbpLoginResultType.Success)
+                    {
+                        await SignInAsync(loginResult.User, loginResult.Identity);
+                        return Redirect(Url.Action("Index", "Home"));
+                    }
+                    Logger.Warn("新的注册用户不能登录。 这不应该是正常的。 登录结果： " + loginResult.Result);
+                }
+
+                //如果不能登录，则显示一个注册结果页面
+                return View("RegisterResult", new RegisterResultViewModel()
+                {
+                    TenancyName = GetTenancyNameOrNull(),
+                    NameAndSurname = user.Surname + " " + user.Name,
+                    UserName = user.UserName,
+                    EmailAddress = user.EmailAddress,
+                    IsActive = user.IsActive
+                });
+            }
+            catch (UserFriendlyException ex)
+            {
+                ViewBag.IsMultiTenancyEnabled = _multiTenancyConfig.IsEnabled;
+                ViewBag.ErrorMessage = ex.Message;
+                return View("Register", model);
+            }
         }
 
-        #endregion
 
+
+        #endregion
+        private string GetTenancyNameOrNull()
+        {
+            if (AbpSession.TenantId.HasValue) return null;
+            return _tenantCache.GetOrNull(AbpSession.TenantId.Value)?.TenancyName;
+        }
     }
 }

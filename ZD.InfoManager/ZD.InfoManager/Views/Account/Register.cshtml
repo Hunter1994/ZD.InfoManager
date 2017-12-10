@@ -1,5 +1,6 @@
 ﻿@using Abp.Web.Mvc.Extensions;
 @using Abp.Authorization.Users;
+@model ZD.InfoManager.Models.Account.RegisterViewModel
 @{
     Layout = "~/Views/Account/_Layout.cshtml";
     ViewBag.Title = "注册";
@@ -16,11 +17,46 @@
 
     <!-- BEGIN REGISTRATION FORM -->
 
-    <form class="form-vertical" id="Registion" action="index.html">
+    <form class="form-vertical" id="Registion" action="Register" method="post">
 
         <h3 class="">注册</h3>
 
         <p>在下面输入您的帐户详情：</p>
+
+        <div class="control-group">
+
+            <label class="control-label visible-ie8 visible-ie9">Surname</label>
+
+            <div class="controls">
+
+                <div class="input-icon left">
+
+                    <i class="icon-user"></i>
+
+                    <input class="m-wrap placeholder-no-fix" type="text" maxlength="@AbpUserBase.MaxSurnameLength" value="@Model.Surname" required placeholder="姓" name="Surname" />
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="control-group">
+
+            <label class="control-label visible-ie8 visible-ie9">Name</label>
+
+            <div class="controls">
+
+                <div class="input-icon left">
+
+                    <i class="icon-user"></i>
+
+                    <input class="m-wrap placeholder-no-fix" type="text" maxlength="@AbpUserBase.MaxNameLength"  value="@Model.Name" required placeholder="名" name="Name" />
+
+                </div>
+
+            </div>
+
+        </div>
 
         <div class="control-group">
 
@@ -32,7 +68,7 @@
 
                     <i class="icon-user"></i>
 
-                    <input class="m-wrap placeholder-no-fix" type="text" maxlength="@AbpUserBase.MaxUserNameLength" required placeholder="用户名" name="UserName" />
+                    <input class="m-wrap placeholder-no-fix" type="text" maxlength="@AbpUserBase.MaxUserNameLength"  value="@Model.UserName" required placeholder="用户名" name="UserName" />
 
                 </div>
 
@@ -88,7 +124,7 @@
 
                     <i class="icon-envelope"></i>
 
-                    <input class="m-wrap placeholder-no-fix" type="email" required maxlength="@AbpUserBase.MaxEmailAddressLength"  placeholder="邮箱" name="EmailAddress" />
+                    <input class="m-wrap placeholder-no-fix" type="email" required maxlength="@AbpUserBase.MaxEmailAddressLength"  value="@Model.EmailAddress"  placeholder="邮箱" name="EmailAddress" />
 
                 </div>
 

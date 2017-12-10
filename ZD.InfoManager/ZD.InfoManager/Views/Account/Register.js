@@ -16,7 +16,10 @@
                 EmailAddress: {
                     required: "请输入邮箱",
                     email:"email格式不正确"
-                }
+                },
+                Name: { required: "请输入名称" },
+                Surname: {required:"请输入姓氏"}
+
             }
         })
 
@@ -25,11 +28,6 @@
             location.href="login"
         });
 
-        $("#register-submit-btn").click(function (e) {
-            e.preventDefault();
-            if (!$loginForm.valid()) return;
-
-        });
 
 
     });
