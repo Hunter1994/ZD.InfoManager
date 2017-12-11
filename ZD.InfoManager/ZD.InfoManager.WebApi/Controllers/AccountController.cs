@@ -17,6 +17,7 @@ using ZD.InfoManager.Core;
 
 namespace ZD.InfoManager.WebApi.Controllers
 {
+    
     public class AccountController: AbpApiController
     {
         public static OAuthBearerAuthenticationOptions OAuthBearerOptions { get; private set; }
@@ -35,6 +36,7 @@ namespace ZD.InfoManager.WebApi.Controllers
         }
 
         [HttpPost]
+        [NonAction]
         public async Task<AjaxResponse> Authenticate(LoginModel loginModel)
         {
             CheckModelState();

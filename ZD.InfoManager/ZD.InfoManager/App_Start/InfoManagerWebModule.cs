@@ -15,6 +15,7 @@ using Microsoft.Owin.Security;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Optimization;
+using Abp.Zero.Configuration;
 
 namespace ZD.InfoManager.App_Start
 {
@@ -26,6 +27,16 @@ namespace ZD.InfoManager.App_Start
         typeof(AbpWebMvcModule))]
     public class InfoManagerWebModule:AbpModule
     {
+        public override void PreInitialize()
+        {
+            //启用数据库本地化
+            Configuration.Modules.Zero().LanguageManagement.EnableDbLocalization();
+
+            //配置导航/菜单
+            Configuration.Navigation.Providers.Add<InfoManagerNavigationProvider>();
+
+        }
+
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());

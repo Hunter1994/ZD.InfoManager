@@ -19,14 +19,14 @@ namespace ZD.InfoManager.App_Start
                     PageNames.Home,
                     L("HomePage"),
                     url: "",
-                    icon: "home",
+                    icon: "icon-home",
                     requiresAuthentication: true
                 )
             ).AddItem(
                 new MenuItemDefinition(
                     PageNames.Tenants,
                     L("Tenants"),
-                    url: "Tenants",
+                    url: "icon-users",
                     icon: "business",
                     requiredPermissionName: PermissionNames.Pages_Tenants
                 )
@@ -35,7 +35,7 @@ namespace ZD.InfoManager.App_Start
                     PageNames.Users,
                     L("Users"),
                     url: "Users",
-                    icon: "people",
+                    icon: "icon-user",
                     requiredPermissionName: PermissionNames.Pages_Users
                 )
             ).AddItem(
@@ -43,20 +43,20 @@ namespace ZD.InfoManager.App_Start
                     PageNames.Roles,
                     L("Roles"),
                     url: "Roles",
-                    icon: "local_offer",
+                    icon: "icon-tags",
                     requiredPermissionName: PermissionNames.Pages_Roles
                 )
             ).AddItem(
                 new MenuItemDefinition(
                     PageNames.InfoMangers,
                     L("InfoManager"),
-                    icon: "lock",
+                    icon: "icon-edit",
                     requiredPermissionName: PermissionNames.Pages_InfoManager
                 ).AddItem(new MenuItemDefinition(
                     PageNames.InfoMangers_Passowrd,
                     L("Infos"),
                     url: "PasswordInfo",
-                    icon: "lock",
+                    icon: "icon-suitcase",
                     requiredPermissionName: PermissionNames.Pages_InfoManager_Password)
             ));
 

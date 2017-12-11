@@ -1,6 +1,7 @@
 ﻿@using Abp.Collections.Extensions
 @using ZD.InfoManager.Views
 @using Abp.Web.Mvc.Views
+@using Abp.Application.Navigation
 @model ZD.InfoManager.Models.Layout.SideBarNavViewModel
 @{ 
     var calculateMenuUrl = new Func<string, string>(url =>
@@ -15,6 +16,23 @@
         }
         return ApplicationPath + url;
     });
+
+    var selectMenu = new Func<UserMenuItem,string, bool>((menu,current)=>
+    {
+        if (menu.Name == current)
+        {
+            return true;
+        }
+        if (!menu.Items.IsNullOrEmpty())
+        {
+            foreach (var subItem in menu.Items)
+            {
+                if(subItem.Name== current) return true;
+            }
+        }
+        return false;
+    });
+
 }
 
 <!-- BEGIN SIDEBAR -->
@@ -57,9 +75,51 @@
 
         </li>
 
+       @foreach (var menuItem in Model.MainMenu.Items)
+        {
+            <li class="@(selectMenu(menuItem,Model.ActiveMenuItemName)?"start active":"") ">
+
+                <a href="@calculateMenuUrl(menuItem.Url)">
+
+                    <i class="@menuItem.Icon"></i>
+
+                    <span class="title">@menuItem.DisplayName</span>
+
+                    @if (selectMenu(menuItem, Model.ActiveMenuItemName))
+                    {
+                        <span class="selected"></span>
+                    }
+                    else
+                    {
+                        <span class="arrow "></span>
+                    }
+                </a>
+
+                @if (!menuItem.Items.IsNullOrEmpty())
+                {
+                   <ul class="sub-menu">
+                    @foreach (var subItem in menuItem.Items)
+                    {
+                        <li class="@(Model.ActiveMenuItemName==subItem.Name? "active":"")">
+
+                            <a href="@calculateMenuUrl(subItem.Url)">
+                                <i class="@subItem.Icon"></i>
+                                @subItem.DisplayName
+                            </a>
+
+                        </li>
+                    }
+                   </ul>
+
+                }
 
 
-        <li class="start active ">
+            </li>
+
+        }
+
+
+     @*<li class=" ">
 
             <a href="index.html">
 
@@ -73,7 +133,7 @@
 
         </li>
 
-        <li class="">
+        <li class="start active">
 
             <a href="javascript:;">
 
@@ -87,13 +147,13 @@
 
             <ul class="sub-menu">
 
-                <li>
+                <li class="active">
 
-                    <a href="layout_horizontal_sidebar_menu.html">
+                    <a href="#">
 
-                        Horzontal & Sidebar Menu
+                       点击我
                     </a>
-
+                    <span class="selected"></span>
                 </li>
 
                 <li>
@@ -179,7 +239,7 @@
 
             </ul>
 
-        </li>
+        </li>*@
 
         
 

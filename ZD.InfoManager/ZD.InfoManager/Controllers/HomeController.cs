@@ -7,7 +7,7 @@ using System.Web.Mvc;
 namespace ZD.InfoManager.Controllers
 {
     [Authorize]
-    public class HomeController : Controller
+    public class HomeController : InfoManagerControllerBase
     {
         // GET: Home
         public ActionResult Index()
