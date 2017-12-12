@@ -49,6 +49,7 @@
 
     <text name="DatabaseConnectionString" value="数据库连接串" />
     <text name="Users" value="用户" />
+    <text name="Roles" value="角色" />
     <text name="IsActive" value="是否激活" />
     <text name="FullName" value="姓名" />
     <text name="CreateNewUser" value="创建新用户" />
@@ -59,6 +60,8 @@
     <text name="Infos" value="信息" />
     <text name="CreateNewPassword" value="添加密码" />
     <text name="Title" value="标题" />
+    <text name="InfoManager" value="信息管理" />
+    <text name="PasswordInfo" value="密码信息管理" />
 
 
   </texts>

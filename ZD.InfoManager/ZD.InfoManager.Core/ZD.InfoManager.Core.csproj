@@ -140,17 +140,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Localization\Source\InfoManger-es.xml" />
-    <Content Include="Localization\Source\InfoManger-fr.xml" />
-    <Content Include="Localization\Source\InfoManger-it.xml" />
-    <Content Include="Localization\Source\InfoManger-ja.xml" />
-    <Content Include="Localization\Source\InfoManger-lt.xml" />
-    <Content Include="Localization\Source\InfoManger-nl-NL.xml" />
-    <Content Include="Localization\Source\InfoManger-pt-BR.xml" />
-    <Content Include="Localization\Source\InfoManger-tr.xml" />
-    <Content Include="Localization\Source\InfoManger-vi.xml" />
-    <Content Include="Localization\Source\InfoManger-zh-CN.xml" />
-    <Content Include="Localization\Source\InfoManger.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager-es.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager-fr.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager-it.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager-ja.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager-lt.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager-nl-NL.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager-pt-BR.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager-tr.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager-vi.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager-zh-CN.xml" />
+    <EmbeddedResource Include="Localization\Source\InfoManager.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.21\build\Microsoft.Bcl.Build.targets')" />

@@ -1,4 +1,5 @@
-﻿
+﻿@using ZD.InfoManager.Models.Layout
+@model SideBarUserAreaViewModel
 
 <div class="header navbar navbar-inverse navbar-fixed-top">
 
@@ -425,7 +426,7 @@
 
                         <img alt="" src="~/lib/media/image/avatar1_small.jpg" />
 
-                        <span class="username">Bob Nilson</span>
+                        <span class="username">@Model.LoginInformations.User.Name</span>
 
                         <i class="icon-angle-down"></i>
 

@@ -313,6 +313,7 @@
     <Compile Include="Models\Account\RegisterResultViewModel.cs" />
     <Compile Include="Models\Account\RegisterViewModel.cs" />
     <Compile Include="Models\Layout\SideBarNavViewModel.cs" />
+    <Compile Include="Models\Layout\SideBarUserAreaViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="App_Start\Startup.cs" />
     <Compile Include="Views\InfoManagerWebViewPageBase.cs" />
@@ -1326,6 +1327,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="img\" />
     <Folder Include="lib\jquery-validation\build\" />
   </ItemGroup>
   <ItemGroup>

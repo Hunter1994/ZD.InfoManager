@@ -42,9 +42,17 @@ namespace ZD.InfoManager.Controllers
             return PartialView("_SideBarNav", model);
         }
 
+        [ChildActionOnly]
         public PartialViewResult SideNavbar()
         {
-            return PartialView("_SideNavbar");
+            var model = new SideBarUserAreaViewModel()
+            {
+                LoginInformations = AsyncHelper.RunSync(() => _sessionAppService.GetCurrentLoginInformations())
+            };
+
+            return PartialView("_SideNavbar", model);
         }
+
+
     }
 }

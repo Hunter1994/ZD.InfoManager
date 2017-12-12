@@ -147,6 +147,10 @@
     <Compile Include="Migrations\201712080554098_initdata.Designer.cs">
       <DependentUpon>201712080554098_initdata.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201712120740177_add_user_AvatarPath.cs" />
+    <Compile Include="Migrations\201712120740177_add_user_AvatarPath.Designer.cs">
+      <DependentUpon>201712120740177_add_user_AvatarPath.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Migrations\SeedData\DefaultEditionsCreator.cs" />
     <Compile Include="Migrations\SeedData\DefaultLanguagesCreator.cs" />
@@ -173,6 +177,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201712080554098_initdata.resx">
       <DependentUpon>201712080554098_initdata.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201712120740177_add_user_AvatarPath.resx">
+      <DependentUpon>201712120740177_add_user_AvatarPath.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

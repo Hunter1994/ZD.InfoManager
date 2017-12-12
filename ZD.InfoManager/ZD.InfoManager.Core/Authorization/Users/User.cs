@@ -9,6 +9,8 @@ namespace ZD.InfoManager.Core.Authorization.Users
     {
         public const string DefaultPassword = "123qwe";
 
+        public string AvatarPath { get; set; }
+
         public static string CreateRandomPassword()
         {
             return Guid.NewGuid().ToString("N").Truncate(16);

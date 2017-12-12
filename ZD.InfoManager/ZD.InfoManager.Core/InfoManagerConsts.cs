@@ -8,7 +8,7 @@ namespace ZD.InfoManager.Core
 {
     public class InfoManagerConsts
     {
-        public const string LocalizationSourceName = "InfoManger";
+        public const string LocalizationSourceName = "InfoManager";
 
         public const bool MultiTenancyEnabled = true;
     }
