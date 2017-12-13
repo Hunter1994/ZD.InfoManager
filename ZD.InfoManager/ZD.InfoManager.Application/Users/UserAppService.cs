@@ -85,6 +85,7 @@ namespace ZD.InfoManager.Application.Users
             return await Get(input);
         }
 
+
         public override async Task Delete(EntityDto<long> input)
         {
             var user = await _userManager.GetUserByIdAsync(input.Id);
