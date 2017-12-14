@@ -9,5 +9,9 @@ namespace ZD.InfoManager.Application.Users
     public interface IUserAppService : IAsyncCrudAppService<UserDto, long, PagedResultRequestDto, CreateUserDto, UpdateUserDto>
     {
         Task<ListResultDto<RoleDto>> GetRoles();
+
+        Task UpdateCurrent(UpdateCurrentUserDto input);
+
+        void CheckedUserLogin();
     }
 }

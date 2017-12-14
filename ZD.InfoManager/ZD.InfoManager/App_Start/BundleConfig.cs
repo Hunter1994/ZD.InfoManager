@@ -31,8 +31,8 @@ namespace ZD.InfoManager
                Include("~/lib/media/js/jquery.cookie.min.js").
                Include("~/lib/media/js/jquery.uniform.min.js").
                Include("~/lib/media/js/jquery.validate.min.js").
-               Include("~/lib/media/js/app.js")
-               );
+               Include("~/lib/media/js/app.js"))
+               ;
 
 
             bundles.Add(new StyleBundle("~/Bundles/abp/css").
@@ -53,7 +53,9 @@ namespace ZD.InfoManager
               Include("~/Abp/Framework/scripts/libs/abp.toastr.js").
               Include("~/Abp/Framework/scripts/libs/abp.blockUI.js").
               Include("~/Abp/Framework/scripts/libs/abp.spin.js").
-              Include("~/Abp/Framework/scripts/libs/abp.sweet-alert.js")
+              Include("~/Abp/Framework/scripts/libs/abp.sweet-alert.js").
+              Include("~/js/main.js").
+              Include("~/Views/Shared/_Layout.js")
               );
 
 

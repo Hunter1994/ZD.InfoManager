@@ -1,0 +1,55 @@
+﻿@using ZD.InfoManager.Models.User
+@using Abp.Authorization.Users
+@model UpdateCurrentUserViewModel
+
+
+<div class="modal-header">
+
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+
+    <h3 id="myModalLabel2">修改基本信息</h3>
+
+</div>
+
+<div class="modal-body">
+
+    <!-- BEGIN FORM-->
+    <form id="UpdateCurrentUserForm" action="#" class="form-horizontal">
+
+        <div class="control-group">
+
+
+            <div class="controls">
+
+                <input type="text" placeholder="姓氏" class="m-wrap small" value="@Model.Surname" required maxlength="@AbpUserBase.MaxSurnameLength" name="Surname"/>
+
+                <span class="help-inline">姓氏</span>
+            </div>
+
+            <div class="controls">
+
+                <input type="text" placeholder="名称" class="m-wrap small" value="@Model.Name" required maxlength="@AbpUserBase.MaxNameLength" name="Name" />
+
+                <span class="help-inline">名称</span>
+            </div>
+
+            <div class="controls">
+
+                <input type="email" required maxlength="@AbpUserBase.MaxEmailAddressLength" placeholder="邮箱" class="m-wrap small" value="@Model.EmailAddress" name="EmailAddress"/>
+
+                <span class="help-inline">邮箱</span>
+            </div>
+
+        </div>
+
+    </form>
+    <!-- END FORM--> 
+
+</div>
+
+<div class="modal-footer">
+
+    <button class="btn green" id="ComfirmUpdateCurrentUser">确认修改</button>
+
+</div>
+

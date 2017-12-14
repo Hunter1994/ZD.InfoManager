@@ -426,7 +426,7 @@
 
                         <img alt="" src="~/lib/media/image/avatar1_small.jpg" />
 
-                        <span class="username">@Model.LoginInformations.User.Name</span>
+                        <span class="username">@Model.LoginInformations.User.Surname@Model.LoginInformations.User.Name</span>
 
                         <i class="icon-angle-down"></i>
 
@@ -441,11 +441,11 @@
                                 <li><a href="inbox.html"><i class="icon-envelope"></i> My Inbox(3)</a></li>
 
                                 <li><a href="#"><i class="icon-tasks"></i> My Tasks</a></li>
-
-                                <li class="divider"></li>*@
-                        <li data-toggle="modal" href="#UpdateUser"><a href="#"><i class="icon-list-alt"></i> 修改基本信息 </a></li>
+                               *@
+                        <li><a href="#"><i class="icon-picture"></i> 修改头像 </a></li>
+                        <li data-toggle="modal" href="#UpdateCurrentUser" id="UpdateUserBtn"><a href="#"><i class="icon-list-alt"></i> 修改基本信息 </a></li>
                         <li data-toggle="modal" href="#UpdatePassword"><a href="extra_lock.html"><i class="icon-lock"></i> 修改密码 </a></li>
-
+                        <li class="divider"></li>
                         <li><a href="@Url.Action("Logout","Account")"><i class="icon-key"></i> 退出登录 </a></li>
 
                     </ul>
@@ -468,49 +468,9 @@
 
 
 <!--BEGIN 修改基本信息-->
-<div id="UpdateUser" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+<div id="UpdateCurrentUser" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
 
-    <div class="modal-header">
 
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
-
-        <h3 id="myModalLabel2">修改基本信息</h3>
-
-    </div>
-
-    <div class="modal-body">
-
-        <!-- BEGIN FORM-->
-
-        <form action="#" class="form-horizontal">
-
-            <div class="control-group">
-
-                <label class="control-label">Small Input</label>
-
-                <div class="controls">
-
-                    <input type="text" placeholder="small" class="m-wrap small" />
-
-                    <span class="help-inline">Some hint here</span>
-
-                </div>
-
-            </div>
-
-           
-
-        </form>
-
-        <!-- END FORM--> 
-
-    </div>
-
-    <div class="modal-footer">
-
-        <button data-dismiss="modal" class="btn green">OK</button>
-
-    </div>
 
 </div>
 <!--END 修改基本信息-->

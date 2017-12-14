@@ -1,4 +1,4 @@
-﻿
+﻿@using Abp.Timing
 <!DOCTYPE html>
 
 <!--
@@ -148,7 +148,9 @@ Purchase: http://themeforest.net/item/metronic-responsive-admin-dashboard-templa
         });
 
     </script>
-
+    <!-- ABP系统的动态脚本（它们是在运行时创建的，不能捆绑在一起） -->
+    <script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
+    <script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>
     <!-- END JAVASCRIPTS -->
 
     <script type="text/javascript">  var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-37564768-1']); _gaq.push(['_setDomainName', 'keenthemes.com']); _gaq.push(['_setAllowLinker', true]); _gaq.push(['_trackPageview']); (function () { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();</script>

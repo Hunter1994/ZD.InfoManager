@@ -306,6 +306,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\InfoManagerControllerBase.cs" />
     <Compile Include="Controllers\LayoutController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -314,6 +315,7 @@
     <Compile Include="Models\Account\RegisterViewModel.cs" />
     <Compile Include="Models\Layout\SideBarNavViewModel.cs" />
     <Compile Include="Models\Layout\SideBarUserAreaViewModel.cs" />
+    <Compile Include="Models\User\UpdateCurrentUserViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="App_Start\Startup.cs" />
     <Compile Include="Views\InfoManagerWebViewPageBase.cs" />
@@ -386,6 +388,9 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="js\helpers.js" />
+    <Content Include="js\main.js" />
+    <Content Include="js\script.js" />
     <Content Include="lib\blockUI\jquery.blockUI.js" />
     <Content Include="lib\jquery-validation\dist\additional-methods.js" />
     <Content Include="lib\jquery-validation\dist\additional-methods.min.js" />
@@ -1305,6 +1310,7 @@
     <Content Include="Views\Account\Login.js" />
     <Content Include="Views\Account\Register.js" />
     <Content Include="Views\Home\Index.js" />
+    <Content Include="Views\Shared\_Layout.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -1324,6 +1330,7 @@
     <Content Include="Views\Account\Register.cshtml" />
     <Content Include="Views\Layout\_SideBarNav.cshtml" />
     <Content Include="Views\Layout\_SideNavbar.cshtml" />
+    <Content Include="Views\User\_UpdateCurrentUser.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

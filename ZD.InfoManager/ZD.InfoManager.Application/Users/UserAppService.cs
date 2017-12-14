@@ -14,6 +14,7 @@ using ZD.InfoManager.Core.Authorization.Users;
 using ZD.InfoManager.Application.Roles.Dto;
 using ZD.InfoManager.Application.Users.Dto;
 using Microsoft.AspNet.Identity;
+using System;
 
 namespace ZD.InfoManager.Application.Users
 {
@@ -84,7 +85,23 @@ namespace ZD.InfoManager.Application.Users
 
             return await Get(input);
         }
+        /// <summary>
+        /// 编辑当前用户信息
+        /// </summary>
+        /// <param name="input"></param>
+        /// <returns></returns>
+        public async Task UpdateCurrent(UpdateCurrentUserDto input)
+        {
+            CheckedUserLogin();
+            var user = await _userManager.GetUserByIdAsync(AbpSession.UserId ?? 0);
+            ObjectMapper.Map(input, user);
+            CheckErrors(await _userManager.UpdateAsync(user));
+        }
 
+        public void CheckedUserLogin()
+        {
+            if (AbpSession.UserId == null) throw new ApplicationException("用户未登录");
+        }
 
         public override async Task Delete(EntityDto<long> input)
         {
@@ -129,5 +146,7 @@ namespace ZD.InfoManager.Application.Users
         {
             identityResult.CheckErrors(LocalizationManager);
         }
+
+   
     }
 }
