@@ -13,39 +13,60 @@
 
 <div class="modal-body">
 
-    <!-- BEGIN FORM-->
-    <form id="UpdateCurrentUserForm" action="#" class="form-horizontal">
+    <form action="#" id="UpdateCurrentUserForm" class="form-horizontal">
+
 
         <div class="control-group">
 
+            <label class="control-label">姓氏</label>
 
             <div class="controls">
 
-                <input type="text" placeholder="姓氏" class="m-wrap small" value="@Model.Surname" required maxlength="@AbpUserBase.MaxSurnameLength" name="Surname"/>
+                <input type="text" placeholder="姓氏" class="m-wrap large" value="@Model.Surname" required maxlength="@AbpUserBase.MaxSurnameLength" name="Surname" />
 
-                <span class="help-inline">姓氏</span>
-            </div>
 
-            <div class="controls">
-
-                <input type="text" placeholder="名称" class="m-wrap small" value="@Model.Name" required maxlength="@AbpUserBase.MaxNameLength" name="Name" />
-
-                <span class="help-inline">名称</span>
-            </div>
-
-            <div class="controls">
-
-                <input type="email" required maxlength="@AbpUserBase.MaxEmailAddressLength" placeholder="邮箱" class="m-wrap small" value="@Model.EmailAddress" name="EmailAddress"/>
-
-                <span class="help-inline">邮箱</span>
             </div>
 
         </div>
 
-    </form>
-    <!-- END FORM--> 
 
-</div>
+        <div class="control-group">
+
+            <label class="control-label">名称</label>
+
+            <div class="controls">
+
+                <input type="text" placeholder="名称" class="m-wrap large" value="@Model.Name" required maxlength="@AbpUserBase.MaxNameLength" name="Name" />
+
+
+            </div>
+
+        </div>
+
+
+        <div class="control-group">
+
+            <label class="control-label">邮箱</label>
+
+            <div class="controls">
+
+                <input type="email" required maxlength="@AbpUserBase.MaxEmailAddressLength" placeholder="邮箱" class="m-wrap large" value="@Model.EmailAddress" name="EmailAddress" />
+
+
+            </div>
+
+        </div>
+
+
+
+
+    </form>
+
+
+
+
+
+    </div>
 
 <div class="modal-footer">
 
