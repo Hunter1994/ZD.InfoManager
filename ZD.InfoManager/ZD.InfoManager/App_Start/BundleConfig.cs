@@ -58,7 +58,12 @@ namespace ZD.InfoManager
               Include("~/Views/Shared/_Layout.js")
               );
 
-
+            //bootstrap fileinput
+            bundles.Add(new ScriptBundle("~/Bundles/bootstrap-fileinput/js").Include(
+                        "~/lib/bootstrap-fileinput-master/js/fileinput.min.js",
+                        "~/lib/bootstrap-fileinput-master/js/locales/zh.js"));
+            bundles.Add(new StyleBundle("~/Bundles/bootstrap-fileinput/css").Include(
+                        "~/lib/bootstrap-fileinput-master/css/fileinput.min.css"));
 
         }
     }
