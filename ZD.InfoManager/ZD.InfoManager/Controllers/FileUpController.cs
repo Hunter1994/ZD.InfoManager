@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Text;
 
 namespace ZD.InfoManager.Controllers
 {
@@ -19,6 +20,10 @@ namespace ZD.InfoManager.Controllers
             return View();
         }
 
-
+        [HttpPost]
+        public JsonResult ChangeAvatar(HttpPostedFileBase txt_file)
+        {
+            return Json("上传完成");
+        }
     }
 }

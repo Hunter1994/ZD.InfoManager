@@ -114,6 +114,7 @@
     <Compile Include="Configuration\IConfigurationAppService.cs" />
     <Compile Include="Configuration\Ui\UiThemeInfo.cs" />
     <Compile Include="Configuration\Ui\UiThemes.cs" />
+    <Compile Include="FileUp\IFileUpAppService.cs" />
     <Compile Include="InfoManagerApplicationModule.cs" />
     <Compile Include="InfoManagerAppServiceBase.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantDto.cs" />
