@@ -12,6 +12,7 @@ namespace ZD.InfoManager.Application.Users
 
         Task UpdateCurrent(UpdateCurrentUserDto input);
 
-        void CheckedUserLogin();
+        Task UpdateCurrentUserAvatar(UpdateCurrentUserAvatarDto input);
+
     }
 }

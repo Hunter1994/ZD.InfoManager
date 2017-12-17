@@ -47,7 +47,7 @@ namespace ZD.InfoManager.Controllers
         {
             var model = new SideBarUserAreaViewModel()
             {
-                LoginInformations = AsyncHelper.RunSync(() => _sessionAppService.GetCurrentLoginInformations())
+                LoginInformations = AsyncHelper.RunSync(() => _sessionAppService.GetCurrentLoginInformations()),
             };
 
             return PartialView("_SideNavbar", model);

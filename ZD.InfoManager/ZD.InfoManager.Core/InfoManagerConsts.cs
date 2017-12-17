@@ -11,5 +11,7 @@ namespace ZD.InfoManager.Core
         public const string LocalizationSourceName = "InfoManager";
 
         public const bool MultiTenancyEnabled = true;
+
+        public const string AvatarPath = "img/avatar";
     }
 }

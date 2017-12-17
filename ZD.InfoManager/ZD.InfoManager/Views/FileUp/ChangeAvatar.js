@@ -1,8 +1,12 @@
-﻿$(function () {
-    //0.初始化fileinput
-    var oFileInput = new FileInput();
-    oFileInput.Init("txt_file", "/FileUp/ChangeAvatar");
-});
+﻿
+(function () {
+    $(function () {
+        //0.初始化fileinput
+        var oFileInput = new FileInput();
+        oFileInput.Init("txt_file", "/FileUp/ChangeAvatar");
+    });
+})()
+
 
 //初始化fileinput
 var FileInput = function () {

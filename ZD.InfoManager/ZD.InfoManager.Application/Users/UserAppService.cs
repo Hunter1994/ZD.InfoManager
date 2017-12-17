@@ -92,16 +92,11 @@ namespace ZD.InfoManager.Application.Users
         /// <returns></returns>
         public async Task UpdateCurrent(UpdateCurrentUserDto input)
         {
-            CheckedUserLogin();
             var user = await _userManager.GetUserByIdAsync(AbpSession.UserId ?? 0);
             ObjectMapper.Map(input, user);
             CheckErrors(await _userManager.UpdateAsync(user));
         }
 
-        public void CheckedUserLogin()
-        {
-            if (AbpSession.UserId == null) throw new ApplicationException("ÓÃ»§Î´µÇÂ¼");
-        }
 
         public override async Task Delete(EntityDto<long> input)
         {
@@ -147,6 +142,12 @@ namespace ZD.InfoManager.Application.Users
             identityResult.CheckErrors(LocalizationManager);
         }
 
-   
+        public async Task UpdateCurrentUserAvatar(UpdateCurrentUserAvatarDto input)
+        {
+            var user = await _userManager.GetUserByIdAsync(AbpSession.UserId ?? 0);
+            ObjectMapper.Map(input, user);
+            CheckErrors(await _userManager.UpdateAsync(user));
+        }
+
     }
 }

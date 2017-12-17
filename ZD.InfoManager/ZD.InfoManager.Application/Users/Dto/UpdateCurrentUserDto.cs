@@ -26,5 +26,6 @@ namespace ZD.InfoManager.Application.Users.Dto
         [EmailAddress]
         [StringLength(AbpUserBase.MaxEmailAddressLength)]
         public string EmailAddress { get; set; }
+        
     }
 }

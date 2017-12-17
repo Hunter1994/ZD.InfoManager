@@ -129,6 +129,9 @@
     <Compile Include="Configuration\AppSettingProvider.cs" />
     <Compile Include="Editions\EditionManager.cs" />
     <Compile Include="Features\FeatureValueStore.cs" />
+    <Compile Include="FileUp\FileUpManager.cs" />
+    <Compile Include="FileUp\IFileUpPolicy.cs" />
+    <Compile Include="FileUp\AvatarFileUpPolicy.cs" />
     <Compile Include="InfoManagerCoreModule.cs" />
     <Compile Include="InfoManagerConsts.cs" />
     <Compile Include="MultiTenancy\Tenant.cs" />

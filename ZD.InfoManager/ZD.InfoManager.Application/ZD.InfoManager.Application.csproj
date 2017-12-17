@@ -114,7 +114,6 @@
     <Compile Include="Configuration\IConfigurationAppService.cs" />
     <Compile Include="Configuration\Ui\UiThemeInfo.cs" />
     <Compile Include="Configuration\Ui\UiThemes.cs" />
-    <Compile Include="FileUp\IFileUpAppService.cs" />
     <Compile Include="InfoManagerApplicationModule.cs" />
     <Compile Include="InfoManagerAppServiceBase.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantDto.cs" />
@@ -134,6 +133,7 @@
     <Compile Include="Sessions\ISessionAppService.cs" />
     <Compile Include="Sessions\SessionAppService.cs" />
     <Compile Include="Users\Dto\CreateUserDto.cs" />
+    <Compile Include="Users\Dto\UpdateCurrentUserAvatarDto.cs" />
     <Compile Include="Users\Dto\UpdateCurrentUserDto.cs" />
     <Compile Include="Users\Dto\UpdateUserDto.cs" />
     <Compile Include="Users\Dto\UserDto.cs" />
