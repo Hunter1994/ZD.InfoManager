@@ -36,6 +36,10 @@ namespace ZD.InfoManager.Controllers
             return PartialView("_UpdateCurrentUser", user.MapTo<UpdateCurrentUserViewModel>());
         }
 
+        public async Task<PartialViewResult> UpdatePassword()
+        {
+            return PartialView("_UpdatePassword");
+        }
 
     }
 }

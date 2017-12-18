@@ -149,5 +149,10 @@ namespace ZD.InfoManager.Application.Users
             CheckErrors(await _userManager.UpdateAsync(user));
         }
 
+        public async Task UpdatePassword(UpdatePasswordDto input)
+        {
+            var user = await _userManager.GetUserByIdAsync(AbpSession.UserId ?? 0);
+            user.SetNewPassword(input.Password, input.NewPassword);
+        }
     }
 }

@@ -1419,6 +1419,7 @@
     <Content Include="Views\Layout\_SideNavbar.cshtml" />
     <Content Include="Views\User\_UpdateCurrentUser.cshtml" />
     <Content Include="Views\FileUp\ChangeAvatar.cshtml" />
+    <Content Include="Views\User\_UpdatePassword.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

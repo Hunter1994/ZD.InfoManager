@@ -14,5 +14,7 @@ namespace ZD.InfoManager.Application.Users
 
         Task UpdateCurrentUserAvatar(UpdateCurrentUserAvatarDto input);
 
+        Task UpdatePassword(UpdatePasswordDto input);
+
     }
 }

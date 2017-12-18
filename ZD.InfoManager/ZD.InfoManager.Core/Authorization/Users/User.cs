@@ -2,6 +2,7 @@
 using Abp.Authorization.Users;
 using Abp.Extensions;
 using Microsoft.AspNet.Identity;
+using Abp.UI;
 
 namespace ZD.InfoManager.Core.Authorization.Users
 {
@@ -30,5 +31,14 @@ namespace ZD.InfoManager.Core.Authorization.Users
 
             return user;
         }
+
+        public void SetNewPassword(string oldPassword,string newPassword)
+        {
+            var validResult= new PasswordHasher().VerifyHashedPassword(this.Password, oldPassword);
+            if(validResult==PasswordVerificationResult.Failed) throw new UserFriendlyException("密码不正确");
+            var passwordHash = new PasswordHasher().HashPassword(newPassword);
+            this.Password = passwordHash;
+        }
+
     }
 }

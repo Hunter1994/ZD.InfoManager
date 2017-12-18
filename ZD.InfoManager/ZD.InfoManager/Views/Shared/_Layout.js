@@ -41,6 +41,58 @@
         });
 
 
+        $("#UpdatePasswordBtn").click(function (e) {
+            e.preventDefault();
+            $.ajax({
+                url: abp.appPath + "User/UpdatePassword",
+                contentType: "application/html",
+                type: "get",
+                success: function (res) {
+                    $("#UpdatePassword").html(res);
+                }
+            })
+
+        });
+
+        $("#ComfirmUpdatePassword").live("click", function (e) {
+            e.preventDefault();
+           
+            var _$UpdatePasswordForm = $("#UpdatePasswordForm");
+            _$UpdatePasswordForm.validate({
+                rules: {
+                    Password: {
+                        required: true
+                    },
+                    NewPassword: {
+                        required: true,
+                        minlength: 6
+                    },
+                    RePassword: {
+                        required: true,
+                        minlength: 6,
+                        equalTo: "#NewPassword"
+                    },
+                },
+                messages: {
+                    Password: { required: "请输入原密码", minlength: "至少输入六个字符" },
+                    NewPassword: { required: "请输入新密码", minlength: "至少输入六个字符" },
+                    RePassword: { required: "重新输入新密码", equalTo: "两次输入密码不一致", minlength:"至少输入六个字符" }
+                }
+            })
+            var _$modal = $("#UpdatePassword");
+            if (!_$UpdatePasswordForm.valid()) return;
+            var data = _$UpdatePasswordForm.serializeFormToObject();
+            abp.ui.setBusy(_$modal);
+            _userService.updatePassword(data).done(function () {
+                _$modal.modal('hide');
+                location.reload(true);
+
+            }).always(function () {
+                abp.ui.clearBusy(_$modal);
+            });
+
+        });
+
 
     })
 })();
