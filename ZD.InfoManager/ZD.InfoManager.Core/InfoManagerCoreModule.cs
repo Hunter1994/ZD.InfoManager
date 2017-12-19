@@ -15,6 +15,7 @@ using ZD.InfoManager.Core.Authorization.Roles;
 using ZD.InfoManager.Core.Authorization.Users;
 using ZD.InfoManager.Core.Configuration;
 using ZD.InfoManager.Core.MultiTenancy;
+using Abp.Runtime.Security;
 
 namespace ZD.InfoManager.Core
 {
@@ -52,6 +53,7 @@ namespace ZD.InfoManager.Core
 
             //设置配置
             Configuration.Settings.Providers.Add<AppSettingProvider>();
+
         }
 
         public override void Initialize()

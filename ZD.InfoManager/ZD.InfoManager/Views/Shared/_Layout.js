@@ -84,6 +84,7 @@
             var data = _$UpdatePasswordForm.serializeFormToObject();
             abp.ui.setBusy(_$modal);
             _userService.updatePassword(data).done(function () {
+                toastr.success("修改成功")
                 _$modal.modal('hide');
                 location.reload(true);
 
