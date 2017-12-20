@@ -1,7 +1,16 @@
 ﻿@using ZD.InfoManager.App_Start
-@{ 
-    ViewBag.ActiveMenu = PageNames.Home;
+@{
+    ViewBag.ActiveMenu = PageNames.InfoMangers_Passowrd;
 }
+
+@section Styles{
+    
+    }
+@section Scripts{
+    
+    }
+
+
  <!-- BEGIN PAGE HEADER-->
 
 <div class="row-fluid">
@@ -12,7 +21,7 @@
 
         <h3 class="page-title">
 
-            主页 <small>统计等等</small>
+            信息管理 
 
         </h3>
 
@@ -22,15 +31,13 @@
 
                 <i class="icon-home"></i>
 
-                <a href="index.html">Home</a>
+                <a href="@Url.Action("Index","Home")">主页</a>
 
                 <i class="icon-angle-right"></i>
 
             </li>
 
-            <li><a href="#">Dashboard</a></li>
-
-            
+            <li><a href="#">信息管理</a></li>
 
         </ul>
 
@@ -41,4 +48,6 @@
 </div>
 
 <!-- END PAGE HEADER-->
+
+
 

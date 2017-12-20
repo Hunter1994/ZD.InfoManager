@@ -55,7 +55,7 @@ namespace ZD.InfoManager.App_Start
                 ).AddItem(new MenuItemDefinition(
                     PageNames.InfoMangers_Passowrd,
                     L("PasswordInfo"),
-                    url: "PasswordInfo",
+                    url: "SecurityInfo",
                     icon: "icon-suitcase",
                     requiredPermissionName: PermissionNames.Pages_InfoManager_Password)
             ));

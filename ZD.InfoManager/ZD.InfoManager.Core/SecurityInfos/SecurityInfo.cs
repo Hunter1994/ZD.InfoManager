@@ -7,6 +7,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Abp.Extensions;
 
 namespace ZD.InfoManager.Core.SecurityInfos
 {
@@ -50,20 +51,24 @@ namespace ZD.InfoManager.Core.SecurityInfos
 
         public void SetTitle(string title)
         {
+            if(!title.IsNullOrEmpty())
             this.Title = SimpleStringCipher.Instance.Encrypt(title);
         }
         public void SetUserName(string username)
         {
-            this.UserName = SimpleStringCipher.Instance.Encrypt(username);
+            if (!username.IsNullOrEmpty())
+                this.UserName = SimpleStringCipher.Instance.Encrypt(username);
         }
 
         public void SetPassword(string password)
         {
-            this.Password = SimpleStringCipher.Instance.Encrypt(password);
+            if (!password.IsNullOrEmpty())
+                this.Password = SimpleStringCipher.Instance.Encrypt(password);
         }
         public void SetContent(string content)
         {
-            this.Content = SimpleStringCipher.Instance.Encrypt(content);
+            if (!content.IsNullOrEmpty())
+                this.Content = SimpleStringCipher.Instance.Encrypt(content);
         }
     }
 }
