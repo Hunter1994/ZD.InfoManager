@@ -1,13 +1,15 @@
 ﻿@using ZD.InfoManager.App_Start
+@using Abp.Web.Mvc.Extensions;
 @{
     ViewBag.ActiveMenu = PageNames.InfoMangers_Passowrd;
 }
 
 @section Styles{
-    
+@Styles.Render("~/Bundles/bootstrap-table-develop/css")
     }
 @section Scripts{
-    
+        @Scripts.Render("~/Bundles/bootstrap-table-develop/js")
+        @Html.IncludeScript("~/Views/SecurityInfo/Index.js")
     }
 
 
@@ -50,4 +52,4 @@
 <!-- END PAGE HEADER-->
 
 
-
+<table id="SecurityInfoTable"></table>

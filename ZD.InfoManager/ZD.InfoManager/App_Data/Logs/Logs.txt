@@ -2455,3 +2455,338 @@ WARN  2017-12-20 21:10:20,363 [43   ] naries.DictionaryBasedLocalizationSource -
 WARN  2017-12-20 21:10:20,584 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
 WARN  2017-12-20 21:15:27,894 [37   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
 WARN  2017-12-20 21:15:28,213 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-21 20:31:04,742 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-21 20:31:04,778 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-21 20:31:04,792 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,796 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,797 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,798 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,799 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,801 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:04,807 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-21 20:31:05,024 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 20:31:05,024 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 20:31:05,024 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 20:31:05,024 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 20:31:05,656 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:31:09,204 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-21 20:31:09,221 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-21 20:31:09,247 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-21 20:31:09,253 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-21 20:31:09,256 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-21 20:31:09,512 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-21 20:31:09,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-21 20:31:09,653 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-21 20:31:09,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-21 20:31:09,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-21 20:31:09,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-21 20:31:09,660 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-21 20:31:09,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-21 20:31:09,661 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-21 20:31:09,662 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-21 20:31:09,663 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-21 20:31:09,663 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-21 20:31:09,663 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-21 20:31:09,663 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-21 20:31:09,663 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-21 20:31:09,664 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-21 20:31:12,641 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-21 20:31:12,643 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-21 20:31:12,646 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-21 20:31:12,648 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-21 20:31:12,652 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-21 20:31:12,657 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-21 20:31:12,659 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+ERROR 2017-12-21 20:31:24,592 [8    ] nager.Controllers.SecurityInfoController - 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。
+System.Web.HttpException (0x80004005): 执行处理程序“System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper”的子请求时出错。 ---> System.NullReferenceException: 未将对象引用设置到对象的实例。
+   在 ASP._Page_Views_Layout__SideNavbar_cshtml.Execute() 位置 C:\Users\Hunter2\AppData\Local\Temp\Temporary ASP.NET Files\vs\cb426719\7683f504\App_Web_wynqifg3.0.cs:行号 0
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.EndInvokeAction(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecuteCore>b__1d(IAsyncResult asyncResult, ExecuteCoreState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecuteCore(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.<BeginExecute>b__15(IAsyncResult asyncResult, Controller controller)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.Controller.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Controller.System.Web.Mvc.Async.IAsyncController.EndExecute(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.<BeginProcessRequest>b__5(IAsyncResult asyncResult, ProcessRequestState innerState)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncVoid`1.CallEndDelegate(IAsyncResult asyncResult)
+   在 System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.End()
+   在 System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)
+   在 System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.<>c__DisplayClassa.<EndProcessRequest>b__9()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.<>c__DisplayClass4.<Wrap>b__3()
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap[TResult](Func`1 func)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerWrapper.Wrap(Action action)
+   在 System.Web.Mvc.HttpHandlerUtil.ServerExecuteHttpHandlerAsyncWrapper.EndProcessRequest(IAsyncResult result)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.ExecuteInternal(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage, VirtualPath path, VirtualPath filePath, String physPath, Exception error, String queryStringOverride)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm, Boolean setPreviousPage)
+   在 System.Web.HttpServerUtility.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.HttpServerUtilityWrapper.Execute(IHttpHandler handler, TextWriter writer, Boolean preserveForm)
+   在 System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   在 System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   在 ASP._Page_Views_Shared__Layout_cshtml.Execute() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager\Views\Shared\_Layout.cshtml:行号 54
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   在 System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.WebPages.WebPageBase.<>c__DisplayClass3.<RenderPageCore>b__2(TextWriter writer)
+   在 System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   在 System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   在 System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   在 System.Web.WebPages.WebPageBase.PopContext()
+   在 System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   在 System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   在 System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   在 System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   在 System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<>c__DisplayClass2b.<BeginInvokeAction>b__1c()
+   在 System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__1e(IAsyncResult asyncResult)
+WARN  2017-12-21 20:31:37,917 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:31:48,047 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:31:48,678 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:31:53,058 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:31:53,239 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-21 20:45:50,190 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-21 20:45:50,216 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-21 20:45:50,225 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,228 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,229 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,230 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,231 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:50,235 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-21 20:45:50,399 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 20:45:50,399 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 20:45:50,399 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 20:45:50,399 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 20:45:50,890 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 20:45:53,409 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-21 20:45:53,424 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-21 20:45:53,441 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-21 20:45:53,445 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-21 20:45:53,447 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-21 20:45:53,606 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-21 20:45:53,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-21 20:45:53,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-21 20:45:53,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-21 20:45:53,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-21 20:45:53,687 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-21 20:45:53,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-21 20:45:53,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-21 20:45:53,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-21 20:45:53,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-21 20:45:53,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-21 20:45:53,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-21 20:45:53,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-21 20:45:53,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-21 20:45:53,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-21 20:45:53,688 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-21 20:45:56,750 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-21 20:45:56,751 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-21 20:45:56,753 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-21 20:45:56,755 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-21 20:45:56,757 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-21 20:45:56,758 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-21 20:45:56,760 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-21 20:46:02,329 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:46:02,329 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:46:04,946 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:46:23,254 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:46:23,660 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:47:54,016 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:47:54,379 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:48:04,859 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:48:05,321 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:49:08,426 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:49:08,877 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:49:15,239 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:49:15,959 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:50:28,747 [29   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:50:28,979 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:50:50,044 [33   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:50:50,552 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:50:55,208 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:50:55,657 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:51:03,266 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:51:03,635 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:51:44,860 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:51:45,200 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:51:53,314 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:51:53,995 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:52:00,130 [4    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:52:00,626 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:52:28,056 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:52:28,473 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:52:59,797 [15   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:53:00,232 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:53:52,033 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:53:52,580 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:54:00,127 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:54:00,574 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:54:59,858 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:55:00,542 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:55:10,100 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:55:10,494 [19   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:55:26,400 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 20:55:27,008 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:02:52,072 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:02:52,322 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:03:00,607 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:03:01,040 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:03:05,993 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:03:06,353 [27   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:03:49,048 [42   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:03:49,479 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:04:25,705 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:04:26,236 [25   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-21 21:15:42,042 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-21 21:15:42,072 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-21 21:15:42,084 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,087 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,088 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,088 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,088 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,088 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,089 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,089 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,090 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,090 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,090 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,091 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,091 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,091 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,092 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:42,097 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-21 21:15:42,274 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 21:15:42,274 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 21:15:42,274 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 21:15:42,274 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 21:15:42,958 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:15:45,594 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-21 21:15:45,610 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-21 21:15:45,626 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-21 21:15:45,630 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-21 21:15:45,632 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-21 21:15:45,791 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-21 21:15:45,861 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-21 21:15:45,862 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-21 21:15:45,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-21 21:15:45,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-21 21:15:45,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-21 21:15:45,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-21 21:15:45,866 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-21 21:15:45,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-21 21:15:45,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-21 21:15:45,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-21 21:15:45,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-21 21:15:45,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-21 21:15:45,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-21 21:15:45,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-21 21:15:45,867 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-21 21:15:48,711 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-21 21:15:48,714 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-21 21:15:48,717 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-21 21:15:48,719 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-21 21:15:48,721 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-21 21:15:48,724 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-21 21:15:48,726 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-21 21:15:54,347 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-21 21:15:56,502 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-21 21:19:48,299 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-21 21:19:48,323 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-21 21:19:48,336 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,338 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,339 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,340 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,341 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,342 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,342 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,343 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,344 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:48,350 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-21 21:19:48,492 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 21:19:48,492 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 21:19:48,492 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 21:19:48,492 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-21 21:19:49,019 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-21 21:19:57,305 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-21 21:19:57,319 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-21 21:19:57,353 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-21 21:19:57,360 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-21 21:19:57,364 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-21 21:19:57,612 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-21 21:19:57,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-21 21:19:57,713 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-21 21:19:57,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-21 21:19:57,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-21 21:19:57,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-21 21:19:57,717 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-21 21:19:57,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-21 21:19:57,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-21 21:19:57,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-21 21:19:57,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-21 21:19:57,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-21 21:19:57,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-21 21:19:57,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-21 21:19:57,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-21 21:19:57,718 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-21 21:20:00,557 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-21 21:20:00,559 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-21 21:20:00,561 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-21 21:20:00,563 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-21 21:20:00,566 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-21 21:20:00,569 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-21 21:20:00,571 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-21 21:20:07,199 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!

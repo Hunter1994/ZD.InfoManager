@@ -65,6 +65,12 @@ namespace ZD.InfoManager
             bundles.Add(new StyleBundle("~/Bundles/bootstrap-fileinput/css").Include(
                         "~/lib/bootstrap-fileinput-master/css/fileinput.min.css"));
 
+            //bootstrap-table-develop
+            bundles.Add(new ScriptBundle("~/Bundles/bootstrap-table-develop/js").Include(
+                       "~/lib/bootstrap-table-develop/dist/bootstrap-table.min.js",
+                       "~/lib/bootstrap-table-develop/dist/locale/bootstrap-table-zh-CN.min.js"));
+            bundles.Add(new StyleBundle("~/Bundles/bootstrap-table-develop/css").Include(
+                        "~/lib/bootstrap-table-develop/dist/bootstrap-table.css"));
         }
     }
 }
