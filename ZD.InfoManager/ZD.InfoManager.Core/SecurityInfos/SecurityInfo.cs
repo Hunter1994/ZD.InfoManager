@@ -24,6 +24,11 @@ namespace ZD.InfoManager.Core.SecurityInfos
 
         public int TenantId { get; set; }
 
+        public SecurityInfo()
+        {
+
+        }
+
         public SecurityInfo(string title, string username, string password, string content)
         {
             this.Title = SimpleStringCipher.Instance.Encrypt(title);

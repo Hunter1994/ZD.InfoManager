@@ -203,9 +203,6 @@
     <Reference Include="Nito.AsyncEx.Enlightenment, Version=4.0.1.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Nito.AsyncEx.4.0.1\lib\net45\Nito.AsyncEx.Enlightenment.dll</HintPath>
     </Reference>
-    <Reference Include="Swashbuckle.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cd1bb07a5ac7c7bc, processorArchitecture=MSIL">
-      <HintPath>..\packages\Swashbuckle.Core.5.6.0\lib\net40\Swashbuckle.Core.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Collections.Immutable, Version=1.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Collections.Immutable.1.3.1\lib\portable-net45+win8+wp8+wpa81\System.Collections.Immutable.dll</HintPath>
@@ -397,7 +394,6 @@
     <Content Include="js\helpers.js" />
     <Content Include="js\main.js" />
     <Content Include="js\script.js" />
-    <Content Include="js\Swagger-Custom.js" />
     <Content Include="lib\blockUI\jquery.blockUI.js" />
     <Content Include="lib\bootstrap-fileinput-master\.gitignore" />
     <Content Include="lib\bootstrap-fileinput-master\css\fileinput-rtl.css" />

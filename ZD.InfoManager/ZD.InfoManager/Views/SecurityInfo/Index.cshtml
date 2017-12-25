@@ -52,4 +52,82 @@
 <!-- END PAGE HEADER-->
 
 
+<div id="toolbar" class="btn-group">
+    <a data-toggle="modal" href="#AddSecurityInfo" id="AddSecurityInfoBtn" class="btn blue"><i class="icon-plus"></i>添加</a>
+</div>
+
 <table id="SecurityInfoTable"></table>
+
+
+<!--BEGIN 添加信息-->
+<div id="AddSecurityInfo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+
+    <div class="modal-header">
+
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+
+        <h3 id="myModalLabel2">添加信息</h3>
+
+    </div>
+
+    <div class="modal-body">
+        <form action="#" class="form-horizontal" id="UpdatePasswordForm">
+
+            <div class="control-group">
+
+                <label class="control-label">标题</label>
+
+                <div class="controls">
+
+                    <input type="password" placeholder="原密码" class="m-wrap large" required name="Password" />
+
+                </div>
+
+            </div>
+            <div class="control-group">
+
+                <label class="control-label">用户名</label>
+
+                <div class="controls">
+
+                    <input type="password" placeholder="原密码" class="m-wrap large" required name="Password" />
+
+                </div>
+
+            </div>
+            <div class="control-group">
+
+                <label class="control-label">密码</label>
+
+                <div class="controls">
+
+                    <input type="password" placeholder="原密码" class="m-wrap large" required name="Password" />
+
+                </div>
+
+            </div>
+            <div class="control-group">
+
+                <label class="control-label">内容</label>
+
+                <div class="controls">
+
+                    <input type="password" placeholder="原密码" class="m-wrap large" required name="Password" />
+
+                </div>
+
+            </div>
+
+
+        </form>
+    </div>
+
+
+    <div class="modal-footer">
+
+        <button class="btn green" id="ComfirmAddSecurityInfo">保存</button>
+
+    </div>
+
+</div>
+<!--END 添加信息-->

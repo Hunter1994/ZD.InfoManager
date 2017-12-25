@@ -2790,3 +2790,1480 @@ DEBUG 2017-12-21 21:20:00,566 [1    ] Abp.Logging.LogHelper                    -
 DEBUG 2017-12-21 21:20:00,569 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
 DEBUG 2017-12-21 21:20:00,571 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
 WARN  2017-12-21 21:20:07,199 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-25 20:46:48,861 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-25 20:46:48,912 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-25 20:46:48,930 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,936 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,937 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,938 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,939 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,940 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,941 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,941 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,941 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,943 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:48,951 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-25 20:46:49,385 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:46:49,385 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:46:49,385 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:46:49,385 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:46:50,170 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:46:54,528 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-25 20:46:54,547 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-25 20:46:54,568 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-25 20:46:54,573 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-25 20:46:54,575 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-25 20:46:54,719 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-25 20:46:54,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-25 20:46:54,807 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-25 20:46:54,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-25 20:46:58,759 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-25 20:46:58,762 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-25 20:46:58,764 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-25 20:46:58,767 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-25 20:46:58,769 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-25 20:46:58,770 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-25 20:46:58,772 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-25 20:47:11,765 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 20:47:28,987 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 20:47:29,674 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-25 20:54:37,296 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-25 20:54:37,316 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-25 20:54:37,324 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,326 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,327 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,328 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,329 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:37,333 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-25 20:54:37,456 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:54:37,456 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:54:37,456 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:54:37,456 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:54:37,949 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:54:40,017 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-25 20:54:40,031 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-25 20:54:40,067 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-25 20:54:40,070 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-25 20:54:40,072 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-25 20:54:40,229 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-25 20:54:40,299 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-25 20:54:40,299 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-25 20:54:40,304 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-25 20:54:40,305 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-25 20:54:40,305 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-25 20:54:40,305 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-25 20:54:40,305 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-25 20:54:40,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-25 20:54:40,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-25 20:54:40,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-25 20:54:40,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-25 20:54:40,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-25 20:54:40,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-25 20:54:40,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-25 20:54:40,306 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-25 20:54:42,829 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-25 20:54:42,860 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-25 20:54:42,861 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-25 20:54:42,862 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-25 20:54:42,864 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-25 20:54:42,866 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-25 20:54:42,868 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-25 20:54:47,831 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 20:54:49,781 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-25 20:55:35,159 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-25 20:55:35,177 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-25 20:55:35,185 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:35,194 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-25 20:55:35,329 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:55:35,329 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:55:35,329 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:55:35,329 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 20:55:35,774 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 20:55:37,650 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-25 20:55:37,663 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-25 20:55:37,686 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-25 20:55:37,692 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-25 20:55:37,693 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-25 20:55:37,833 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-25 20:55:37,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-25 20:55:37,911 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-25 20:55:37,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-25 20:55:37,914 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-25 20:55:37,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-25 20:55:37,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-25 20:55:37,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-25 20:55:37,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-25 20:55:37,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-25 20:55:37,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-25 20:55:37,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-25 20:55:37,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-25 20:55:37,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-25 20:55:37,915 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-25 20:55:37,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-25 20:55:40,534 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-25 20:55:40,536 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-25 20:55:40,537 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-25 20:55:40,538 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-25 20:55:40,539 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-25 20:55:40,540 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-25 20:55:40,541 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-25 20:55:45,134 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 20:55:47,099 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-25 21:00:18,420 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-25 21:00:18,462 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-25 21:00:18,491 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,494 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,495 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,496 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,497 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,498 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:18,508 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-25 21:00:18,804 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:00:18,804 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:00:18,805 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:00:18,805 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:00:19,414 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:00:21,721 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-25 21:00:21,742 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-25 21:00:21,769 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-25 21:00:21,774 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-25 21:00:21,775 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-25 21:00:21,938 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-25 21:00:22,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-25 21:00:22,039 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-25 21:00:22,043 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-25 21:00:22,044 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-25 21:00:22,044 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-25 21:00:24,802 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-25 21:00:24,804 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-25 21:00:24,805 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-25 21:00:24,806 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-25 21:00:24,808 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-25 21:00:24,810 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-25 21:00:24,813 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-25 21:00:29,367 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:00:31,402 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-25 21:01:46,687 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-25 21:01:46,705 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-25 21:01:46,715 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,717 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,718 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,719 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,720 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:01:46,725 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-25 21:01:46,854 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:01:46,854 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:01:46,854 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:01:46,854 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:01:47,319 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,461 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-25 21:03:20,491 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-25 21:03:20,501 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,507 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,508 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,509 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,510 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,511 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,512 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:20,518 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-25 21:03:20,704 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:03:20,704 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:03:20,704 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:03:20,704 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:03:21,147 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:03:23,173 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-25 21:03:23,192 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-25 21:03:23,210 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-25 21:03:23,214 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-25 21:03:23,215 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-25 21:03:23,370 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-25 21:03:23,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-25 21:03:23,437 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-25 21:03:23,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-25 21:03:23,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-25 21:03:23,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-25 21:03:23,440 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-25 21:03:23,441 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-25 21:03:23,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-25 21:03:23,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-25 21:03:23,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-25 21:03:23,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-25 21:03:23,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-25 21:03:23,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-25 21:03:23,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-25 21:03:23,442 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-25 21:03:26,230 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-25 21:03:26,231 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-25 21:03:26,232 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-25 21:03:26,233 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-25 21:03:26,234 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-25 21:03:26,235 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-25 21:03:26,236 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-25 21:03:31,132 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:03:33,141 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-25 21:06:22,978 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-25 21:06:22,995 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-25 21:06:23,003 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,005 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,006 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,007 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,008 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,009 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:23,012 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-25 21:06:23,152 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:06:23,152 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:06:23,152 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:06:23,152 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:06:23,598 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:06:25,513 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-25 21:06:25,528 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-25 21:06:25,548 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-25 21:06:25,551 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-25 21:06:25,554 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-25 21:06:25,686 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-25 21:06:25,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-25 21:06:25,763 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-25 21:06:25,766 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-25 21:06:25,766 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-25 21:06:25,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-25 21:06:25,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-25 21:06:25,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-25 21:06:25,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-25 21:06:25,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-25 21:06:25,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-25 21:06:25,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-25 21:06:25,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-25 21:06:25,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-25 21:06:25,767 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-25 21:06:25,768 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-25 21:06:28,282 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-25 21:06:28,283 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-25 21:06:28,285 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-25 21:06:28,286 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-25 21:06:28,287 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-25 21:06:28,288 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-25 21:06:28,289 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-25 21:06:32,904 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:06:34,743 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:06:37,487 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:06:37,768 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+ERROR 2017-12-25 21:06:38,922 [11   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 47
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-12-25 21:07:05,843 [10   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 47
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-12-25 21:07:08,031 [10   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 47
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-12-25 21:07:32,136 [15   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 47
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-12-25 21:09:23,782 [16   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 47
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-12-25 21:09:31,708 [16   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 47
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-12-25 21:10:26,912 [26   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 47
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-12-25 21:12:39,741 [41   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 47
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2017-12-25 21:13:59,799 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-25 21:13:59,820 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-25 21:13:59,828 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,830 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:13:59,837 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-25 21:13:59,960 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:13:59,960 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:13:59,960 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:13:59,960 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:14:00,450 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:14:02,559 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-25 21:14:02,577 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-25 21:14:02,594 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-25 21:14:02,598 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-25 21:14:02,599 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-25 21:14:02,743 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-25 21:14:02,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-25 21:14:02,819 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-25 21:14:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-25 21:14:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-25 21:14:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-25 21:14:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-25 21:14:02,823 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-25 21:14:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-25 21:14:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-25 21:14:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-25 21:14:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-25 21:14:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-25 21:14:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-25 21:14:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-25 21:14:02,824 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-25 21:14:05,636 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-25 21:14:05,638 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-25 21:14:05,639 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-25 21:14:05,640 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-25 21:14:05,642 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-25 21:14:05,644 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-25 21:14:05,645 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-25 21:14:10,550 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:14:12,601 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+ERROR 2017-12-25 21:14:20,673 [15   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 50
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+ERROR 2017-12-25 21:14:29,191 [11   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 50
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-12-25 21:14:36,725 [13   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:14:36,974 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+ERROR 2017-12-25 21:14:37,481 [13   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 50
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+WARN  2017-12-25 21:14:40,751 [17   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:14:41,053 [12   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+ERROR 2017-12-25 21:14:41,729 [12   ] nHandling.AbpApiExceptionFilterAttribute - 调用的目标发生了异常。
+System.Reflection.TargetInvocationException: 调用的目标发生了异常。 ---> System.InvalidOperationException: 类“ZD.InfoManager.Core.SecurityInfos.SecurityInfo”没有无参数构造函数。
+   在 System.Data.Entity.Core.Objects.DelegateFactory.GetConstructorForType(Type type)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Emit_ConstructEntity(EntityType oSpaceType, IEnumerable`1 propertyBindings, Expression entityKeyReader, Expression entitySetReader, TranslatorArg arg, EntityProxyTypeInfo proxyTypeInfo)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(EntityColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.EntityColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.ProcessCollectionColumnMap(CollectionColumnMap columnMap, TranslatorArg arg, ColumnMap discriminatorColumnMap, Object discriminatorValue)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslatorVisitor.Visit(SimpleCollectionColumnMap columnMap, TranslatorArg arg)
+   在 System.Data.Entity.Core.Query.InternalTrees.SimpleCollectionColumnMap.Accept[TResultType,TArgType](ColumnMapVisitorWithResults`2 visitor, TArgType arg)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap[T](ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   --- 内部异常堆栈跟踪的结尾 ---
+   在 System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   在 System.Reflection.RuntimeMethodInfo.UnsafeInvokeInternal(Object obj, Object[] parameters, Object[] arguments)
+   在 System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   在 System.Data.Entity.Core.Common.Internal.Materialization.Translator.TranslateColumnMap(Translator translator, Type elementType, ColumnMap columnMap, MetadataWorkspace workspace, SpanIndex spanIndex, MergeOption mergeOption, Boolean streaming, Boolean valueLayer)
+   在 System.Data.Entity.Core.Objects.Internal.ObjectQueryExecutionPlanFactory.Prepare(ObjectContext context, DbQueryCommandTree tree, Type elementType, MergeOption mergeOption, Boolean streaming, Span span, IEnumerable`1 compiledQueryParameters, AliasGenerator aliasGenerator)
+   在 System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__6()
+   在 System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<>c__DisplayClass7.<GetResults>b__5()
+   在 System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   在 System.Data.Entity.Core.Objects.ObjectQuery`1.<System.Collections.Generic.IEnumerable<T>.GetEnumerator>b__0()
+   在 System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   在 System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   在 System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   在 ZD.InfoManager.Application.SecurityInfos.SecurityInfoAppService.<GetListByPager>d__4.MoveNext() 位置 F:\H-ZD006-Project\ZDInfoManager\ZD.InfoManager\ZD.InfoManager.Application\SecurityInfos\SecurityInfoAppService.cs:行号 50
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.Threading.InternalAsyncHelper.<AwaitTaskWithFinallyAndGetResult>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Threading.Tasks.TaskHelpersExtensions.<CastToObject>d__3`1.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ApiControllerActionInvoker.<InvokeActionAsyncCore>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Uow.AbpApiUowFilter.<ExecuteActionFilterAsync>d__6.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Validation.AbpApiValidationFilter.<ExecuteActionFilterAsync>d__5.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Auditing.AbpApiAuditFilter.<ExecuteActionFilterAsync>d__4.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ActionFilterResult.<ExecuteAsync>d__2.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Security.AntiForgery.AbpAntiForgeryApiFilter.<ExecuteAuthorizationFilterAsync>d__10.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 Abp.WebApi.Authorization.AbpApiAuthorizeFilter.<ExecuteAuthorizationFilterAsync>d__7.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.AuthenticationFilterResult.<ExecuteAsync>d__0.MoveNext()
+--- 引发异常的上一位置中堆栈跟踪的末尾 ---
+   在 System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   在 System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   在 System.Web.Http.Controllers.ExceptionFilterResult.<ExecuteAsync>d__0.MoveNext()
+DEBUG 2017-12-25 21:16:13,360 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-25 21:16:13,387 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-25 21:16:13,398 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,401 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,402 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:13,407 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-25 21:16:13,546 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:16:13,546 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:16:13,546 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:16:13,546 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:16:14,027 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:16:16,139 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-25 21:16:16,156 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-25 21:16:16,181 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-25 21:16:16,185 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-25 21:16:16,187 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-25 21:16:16,342 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-25 21:16:16,406 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-25 21:16:16,406 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-25 21:16:16,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-25 21:16:16,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-25 21:16:16,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-25 21:16:16,409 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-25 21:16:16,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-25 21:16:16,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-25 21:16:16,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-25 21:16:16,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-25 21:16:16,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-25 21:16:16,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-25 21:16:16,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-25 21:16:16,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-25 21:16:16,410 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-25 21:16:19,135 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-25 21:16:19,137 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-25 21:16:19,139 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-25 21:16:19,141 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-25 21:16:19,143 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-25 21:16:19,145 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-25 21:16:19,148 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-25 21:16:25,059 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:16:26,977 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:16:30,359 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:16:30,616 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:16:33,986 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:16:34,399 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:18:50,441 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:18:50,704 [22   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:21:09,674 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:21:09,892 [43   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:21:25,579 [48   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:21:25,825 [43   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:23:11,805 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:23:12,024 [46   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:23:29,420 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:23:29,670 [47   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:23:38,562 [46   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:23:38,814 [43   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:25:27,348 [37   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:25:27,648 [43   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:25:29,991 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:25:30,194 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:25:34,383 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:25:34,739 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:25:52,056 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+ERROR 2017-12-25 21:25:52,066 [35   ] Abp.Logging.LogHelper                    - Can not find file for: ~/Views/SecurityInfo/Index.js?v=123123123! System.ArgumentException: 路径中具有非法字符。
+   在 System.Security.Permissions.FileIOPermission.CheckIllegalCharacters(String[] str, Boolean onlyCheckExtras)
+   在 System.Security.Permissions.FileIOPermission.AddPathList(FileIOPermissionAccess access, AccessControlActions control, String[] pathListOrig, Boolean checkForDuplicates, Boolean needFullPath, Boolean copyPathList)
+   在 System.Security.Permissions.FileIOPermission..ctor(FileIOPermissionAccess access, String path)
+   在 System.Web.InternalSecurityPermissions.PathDiscovery(String path)
+   在 System.Web.HttpRequest.MapPath(VirtualPath virtualPath, VirtualPath baseVirtualDir, Boolean allowCrossAppMapping)
+   在 System.Web.HttpServerUtility.MapPath(String path)
+   在 Abp.Web.Mvc.Extensions.HtmlHelperResourceExtensions.GetPathWithVersioning(String path)
+WARN  2017-12-25 21:25:52,279 [37   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:25:54,749 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:25:54,963 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:26:03,328 [37   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:26:03,560 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:26:51,950 [30   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:26:52,165 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:26:53,750 [37   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:26:53,973 [34   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:27:27,979 [38   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:27:28,210 [36   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:27:30,143 [39   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:27:30,384 [35   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:29:56,229 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:29:56,452 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:30:32,683 [46   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:30:32,901 [18   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+DEBUG 2017-12-25 21:30:48,240 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-12-25 21:30:48,887 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-12-25 21:30:48,900 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.App_Start.InfoManagerWebModule, ZD.InfoManager, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,903 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.EntityFramework.InfoManagerDataModule, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,904 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,905 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,906 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Core.InfoManagerCoreModule, ZD.InfoManager.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.Application.InfoManagerApplicationModule, ZD.InfoManager.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,907 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: ZD.InfoManager.WebApi.InfoManagerWebApiModule, ZD.InfoManager.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,908 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,909 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.1.3.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:48,916 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-12-25 21:30:49,413 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:30:49,413 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:30:49,413 [1    ] o.Configuration.LanguageManagementConfig - Converted InfoManager (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:30:49,414 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-12-25 21:30:50,294 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: ZD.InfoManager.EntityFramework.EntityFramework.InfoManagerDbContext, ZD.InfoManager.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-12-25 21:30:52,245 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-12-25 21:30:52,265 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-12-25 21:30:52,299 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-12-25 21:30:52,309 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: InfoManager
+DEBUG 2017-12-25 21:30:52,311 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-12-25 21:30:52,508 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-12-25 21:30:52,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 14 classes define auto mapping attributes
+DEBUG 2017-12-25 21:30:52,679 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.CreateUserDto
+DEBUG 2017-12-25 21:30:52,683 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserAvatarDto
+DEBUG 2017-12-25 21:30:52,683 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateCurrentUserDto
+DEBUG 2017-12-25 21:30:52,683 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UpdateUserDto
+DEBUG 2017-12-25 21:30:52,683 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Users.Dto.UserDto
+DEBUG 2017-12-25 21:30:52,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-12-25 21:30:52,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-12-25 21:30:52,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.CreateRoleDto
+DEBUG 2017-12-25 21:30:52,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.PermissionDto
+DEBUG 2017-12-25 21:30:52,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.Roles.Dto.RoleDto
+DEBUG 2017-12-25 21:30:52,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.CreateTenantDto
+DEBUG 2017-12-25 21:30:52,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.EditTenantDto
+DEBUG 2017-12-25 21:30:52,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Application.MultiTenancy.Dto.TenantDto
+DEBUG 2017-12-25 21:30:52,684 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - ZD.InfoManager.Models.User.UpdateCurrentUserViewModel
+DEBUG 2017-12-25 21:30:56,987 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-12-25 21:30:56,989 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-12-25 21:30:56,990 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.SecurityInfos.ISecurityInfoAppService' with service name 'app/securityInfo'.
+DEBUG 2017-12-25 21:30:56,991 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-12-25 21:30:56,992 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-12-25 21:30:56,993 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Configuration.IConfigurationAppService' with service name 'app/configuration'.
+DEBUG 2017-12-25 21:30:56,995 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'ZD.InfoManager.Application.Authorization.Accounts.IAccountAppService' with service name 'app/account'.
+WARN  2017-12-25 21:31:01,458 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:31:03,625 [9    ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:31:41,108 [11   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!
+WARN  2017-12-25 21:31:41,358 [14   ] naries.DictionaryBasedLocalizationSource - Can not find 'MainMenu' in localization source 'Abp'!

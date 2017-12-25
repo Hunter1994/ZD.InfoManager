@@ -10,6 +10,7 @@ using System.Reflection;
 using Abp.Configuration.Startup;
 using Abp.Application.Services;
 using System.Web.Http;
+using Swashbuckle.Application;
 
 namespace ZD.InfoManager.WebApi
 {
@@ -24,6 +25,21 @@ namespace ZD.InfoManager.WebApi
                 Build();
 
             Configuration.Modules.AbpWebApi().HttpConfiguration.Filters.Add(new HostAuthenticationFilter("Bearer"));
+            ConfigureSwaggerUi();
+        }
+
+        private void ConfigureSwaggerUi()
+        {
+            Configuration.Modules.AbpWebApi().HttpConfiguration
+                .EnableSwagger(c =>
+                {
+                    c.SingleApiVersion("v1", "ZD.InfoManager");
+                    c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
+                })
+                  .EnableSwaggerUi(c =>
+                  {
+                      c.InjectJavaScript(Assembly.GetAssembly(typeof(InfoManagerWebApiModule)), "ZD.InfoManager.WebApi.js.Swagger-Custom.js");
+                  });
         }
     }
 }

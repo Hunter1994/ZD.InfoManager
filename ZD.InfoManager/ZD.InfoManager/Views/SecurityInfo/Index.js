@@ -39,14 +39,22 @@ var TableInit = function () {
             detailView: false,                   //是否显示父子表
             columns: [
                 {
-                    field: 'ID',
-                    title: 'ID'
+                    field: 'Id',
+                    title: 'Id'
                 }, {
-                    field: 'Name',
-                    title: '名字'
+                    field: 'Title',
+                    title: '标题'
                 }, {
-                    field: 'Sex',
-                    title: '性别'
+                    field: 'UserName',
+                    title: '用户名'
+                },
+                {
+                    field: 'Password',
+                    title: '密码'
+                },
+                {
+                    field: 'Content',
+                    title: '内容'
                 },
                 {
                     field: 'operate',

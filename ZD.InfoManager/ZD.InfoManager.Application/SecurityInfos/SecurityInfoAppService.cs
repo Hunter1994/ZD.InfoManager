@@ -10,9 +10,12 @@ using Abp.Linq.Extensions;
 using Abp.Extensions;
 using Abp.AutoMapper;
 using Abp.Application.Services.Dto;
+using Abp.Authorization;
+using ZD.InfoManager.Core.Authorization;
 
 namespace ZD.InfoManager.Application.SecurityInfos
 {
+    [AbpAuthorize(PermissionNames.Pages_InfoManager_Password)]
     public class SecurityInfoAppService : InfoManagerAppServiceBase, ISecurityInfoAppService
     {
         private readonly IRepository<SecurityInfo> _repositorySecurityInfo;

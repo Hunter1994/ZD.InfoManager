@@ -16,8 +16,6 @@ using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Optimization;
 using Abp.Zero.Configuration;
-using Abp.Configuration.Startup;
-using Swashbuckle.Application;
 
 namespace ZD.InfoManager.App_Start
 {
@@ -55,22 +53,7 @@ namespace ZD.InfoManager.App_Start
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
-
-            ConfigureSwaggerUi();
-
         }
-        private void ConfigureSwaggerUi()
-        {
-            Configuration.Modules.AbpWebApi().HttpConfiguration
-                .EnableSwagger(c =>
-                {
-                    c.SingleApiVersion("v1", "ZD.InfoManager.WebApi");
-                    c.ResolveConflictingActions(apiDescriptions => apiDescriptions.First());
-                })
-                .EnableSwaggerUi(c =>
-                {
-                    c.InjectJavaScript(Assembly.GetAssembly(typeof(InfoManagerWebApiModule)), "ZD.InfoManager.js.Swagger-Custom.js");
-                });
-        }
+        
     }
 }
